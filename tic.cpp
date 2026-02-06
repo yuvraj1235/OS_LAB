@@ -7,6 +7,15 @@
 
 using namespace std;
 
+/*
+ * IPC Tic Tac Toe Game
+ * Contributor: Roshini Seepani
+ * Contribution:
+ *  - Added input validation
+ *  - Improved board display
+ *  - Safer shared memory initialization
+ */
+
 #define SHM_KEY 0x1234
 
 struct GameState {
@@ -28,7 +37,7 @@ void printBoard() {
     for (int i = 0; i < 3; i++) {
         cout << " ";
         for (int j = 0; j < 3; j++) {
-            cout << game->board[i][j];
+            cout << (game->board[i][j] == ' ' ? '.' : game->board[i][j]);
             if (j < 2) cout << " | ";
         }
         cout << "\n";
@@ -82,7 +91,11 @@ int main() {
     my_pid = getpid();
     cout << "My PID: " << my_pid << endl;
     cout << "Enter opponent PID: ";
-    cin >> opp_pid;
+
+    if (!(cin >> opp_pid)) {
+        cout << "Invalid PID input\n";
+        return 0;
+    }
 
     int shmid = shmget(SHM_KEY, sizeof(GameState), IPC_CREAT | 0666);
     game = (GameState *)shmat(shmid, nullptr, 0);
@@ -113,12 +126,25 @@ int main() {
             printBoard();
             int r, c;
 
-            do {
+            while (true) {
                 cout << "Player " << my_symbol
                      << " enter row col (0-2): ";
-                cin >> r >> c;
-            } while (r < 0 || r > 2 || c < 0 || c > 2 ||
-                     game->board[r][c] != ' ');
+
+                if (!(cin >> r >> c)) {
+                    cin.clear();
+                    cin.ignore(1000, '\n');
+                    cout << "Invalid input. Enter numbers only.\n";
+                    continue;
+                }
+
+                if (r < 0 || r > 2 || c < 0 || c > 2 ||
+                    game->board[r][c] != ' ') {
+                    cout << "Invalid move. Try again.\n";
+                    continue;
+                }
+
+                break;
+            }
 
             game->board[r][c] = my_symbol;
 
@@ -145,9 +171,6 @@ int main() {
             pause();
         }
     }
-
-    if (!my_turn)
-        cout << "Game over. Opponent finished.\n";
 
     shmdt(game);
     return 0;
