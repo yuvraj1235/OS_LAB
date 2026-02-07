@@ -16,22 +16,34 @@ using namespace std;
  *  - Safer shared memory initialization
  */
 
+/*
+ * IPC Tic Tac Toe Game
+ * Contributor: Jyothi kiran
+ * Contribution:
+ *  - Added explanatory comments to improve readability
+ *  - Documented signal handling and IPC logic
+ *  - Clarified game flow and logic of X and O moves
+ */
+ 
 #define SHM_KEY 0x1234
 
+//Structure to store shared game state between two processes
 struct GameState {
-    char board[3][3];
-    pid_t turn_pid;
-    int game_over;
+    char board[3][3]; //Tic Tac Toe board
+    pid_t turn_pid;   //stores PID of player whose turn it is
+    int game_over;    //Flag to check if game has ended
 };
 
-GameState *game;
+//global variables used for process communication
+GameState *game;                        
 pid_t my_pid, opp_pid;
 char my_symbol, opp_symbol;
 volatile sig_atomic_t my_turn = 0;
 volatile sig_atomic_t game_end = 0;
 
-/* ---------- Utility ---------- */
+/* ---------- Utility Functions ---------- */
 
+//Function to display the current game board
 void printBoard() {
     cout << "\n";
     for (int i = 0; i < 3; i++) {
@@ -46,6 +58,7 @@ void printBoard() {
     cout << "\n";
 }
 
+//Function to check if a player has won
 bool checkWin(char p) {
     for (int i = 0; i < 3; i++)
         if ((game->board[i][0] == p &&
@@ -67,6 +80,7 @@ bool checkWin(char p) {
     return false;
 }
 
+//Function to check if the game is a draw
 bool isDraw() {
     for (int i = 0; i < 3; i++)
         for (int j = 0; j < 3; j++)
@@ -85,7 +99,7 @@ void sig_gameover(int) {
     game_end = 1;
 }
 
-/* ---------- Main ---------- */
+/* ---------- Main Program---------- */
 
 int main() {
     my_pid = getpid();
@@ -97,35 +111,39 @@ int main() {
         return 0;
     }
 
+    //Create or access shared memory segment
     int shmid = shmget(SHM_KEY, sizeof(GameState), IPC_CREAT | 0666);
     game = (GameState *)shmat(shmid, nullptr, 0);
-
+   
+    //Register signal handlers
     signal(SIGUSR1, sig_turn);
     signal(SIGUSR2, sig_gameover);
 
-    /* Decide roles */
+    /* Decide roles based on PID*/
     if (my_pid < opp_pid) {
         my_symbol = 'X';
         opp_symbol = 'O';
-
+       
+        //Initialise board for first player
         memset(game->board, ' ', sizeof(game->board));
         game->turn_pid = my_pid;
         game->game_over = 0;
 
         my_turn = 1;
-        kill(opp_pid, SIGUSR1);
+        kill(opp_pid, SIGUSR1); //Notify opponent
     } else {
         my_symbol = 'O';
         opp_symbol = 'X';
-        pause();
+        pause();               //Wait for first turn signal
     }
 
-    /* Game Loop */
+    /* Main Game Loop */
     while (!game_end) {
         if (my_turn && !game->game_over) {
             printBoard();
             int r, c;
-
+           
+            //Input validation loop
             while (true) {
                 cout << "Player " << my_symbol
                      << " enter row col (0-2): ";
@@ -145,9 +163,11 @@ int main() {
 
                 break;
             }
-
+           
+            //Place the move on board
             game->board[r][c] = my_symbol;
-
+           
+            //Check winning condition
             if (checkWin(my_symbol)) {
                 printBoard();
                 cout << "You win!\n";
@@ -155,7 +175,8 @@ int main() {
                 kill(opp_pid, SIGUSR2);
                 break;
             }
-
+           
+            //Check draw condition
             if (isDraw()) {
                 printBoard();
                 cout << "Game draw!\n";
@@ -163,15 +184,17 @@ int main() {
                 kill(opp_pid, SIGUSR2);
                 break;
             }
-
+           
+            //Pass turn to opponent
             my_turn = 0;
             game->turn_pid = opp_pid;
             kill(opp_pid, SIGUSR1);
         } else {
-            pause();
+            pause();       //Wait for signal from opponent
         }
     }
-
+   
+    //Detach shared memory before exit
     shmdt(game);
     return 0;
 }
