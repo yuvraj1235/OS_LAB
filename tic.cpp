@@ -17,7 +17,6 @@ using namespace std;
  */
 
 /*
- * IPC Tic Tac Toe Game
  * Contributor: Jyothi kiran
  * Contribution:
  *  - Added explanatory comments to improve readability
