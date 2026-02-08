@@ -138,9 +138,9 @@ Roshini pc
 
 
 	NAME				MAIL.ID
-Yubraj sau\n 			ys.24u10345@nitdgp.ac.in
-Jyothi Kiran\n 		gjk.24u10352@nitdgp.ac.in
-Yaswanth Kumar\n 		syk.24u10357@nitdgp.ac.in
+Yubraj sau 			ys.24u10345@nitdgp.ac.in
+Jyothi Kiran 		gjk.24u10352@nitdgp.ac.in
+Yaswanth Kumar 		syk.24u10357@nitdgp.ac.in
 Sudipto Maity 		sm.24u10318@nitdgp.ac.in
 Aryan kumar 		ak.24u10320@nitdgp.ac.in
 Seepani Roshini		sr.24u10321@nitdgp.ac.in
