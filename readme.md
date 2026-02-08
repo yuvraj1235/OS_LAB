@@ -139,3 +139,4 @@ Yubraj pc
 4.Sudipto Maity 	sm.24u10318@nitdgp.ac.in
 5.Aryan kumar 		ak.24u10320@nitdgp.ac.in
 6.Seepani Roshini	sr.24u10321@nitdgp.ac.in
+7.Dinesh Baratam	bd.24u10340@nitdgp.ac.in
