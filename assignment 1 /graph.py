@@ -272,19 +272,19 @@ def print_analysis_report(df, speedup):
     print("PERFORMANCE ANALYSIS REPORT")
     print("="*60)
     
-    print(f"\n📊 EXECUTION TIME ANALYSIS:")
+    print(f"\n EXECUTION TIME ANALYSIS:")
     print(f"  Sequential (n=1):     {times[0]:.6f} seconds")
     print(f"  Best Time:            {times.min():.6f} seconds")
     min_idx = np.argmin(times)
     print(f"  Optimal Processes:    {n_values[min_idx]}")
     print(f"  Worst Time:           {times.max():.6f} seconds")
     
-    print(f"\n🚀 SPEEDUP ANALYSIS:")
+    print(f"\n SPEEDUP ANALYSIS:")
     print(f"  Maximum Speedup:      {speedup.max():.2f}x")
     print(f"  Speedup at n={n_values[-1]}:       {speedup[-1]:.2f}x")
     print(f"  Average Speedup:      {speedup.mean():.2f}x")
     
-    print(f"\n⚡ EFFICIENCY ANALYSIS:")
+    print(f"\n EFFICIENCY ANALYSIS:")
     print(f"  Best Efficiency:      {efficiency.max():.1f}%")
     print(f"  Efficiency at n={n_values[-1]}:    {efficiency[-1]:.1f}%")
     print(f"  Average Efficiency:   {efficiency.mean():.1f}%")
@@ -331,7 +331,7 @@ def main():
     # Print analysis report
     print_analysis_report(df, speedup)
     
-    print("\n✅ ALL PLOTS GENERATED SUCCESSFULLY!")
+    print("\n ALL PLOTS GENERATED SUCCESSFULLY!")
     print("\nGenerated files:")
     print("  1. plot1_execution_time.png    - Time vs Processes")
     print("  2. plot2_speedup.png            - Speedup analysis")
