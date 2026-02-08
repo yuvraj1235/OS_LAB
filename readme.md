@@ -127,6 +127,11 @@ Create `prompt.txt` containing the exact prompt you sent to the model, and the s
 
 If you want, I can: generate the `prompt.txt` files, run local token counts for each prompt using the heuristic, and commit them into the repo. Tell me which option you prefer.
 
+
+Yubraj pc 
+![Demo Screenshot](assignment 1/Yubraj_pc.png)
+
+
 	NAME				MAIL.ID
 1.Yubraj sau 		ys.24u10345@nitdgp.ac.in
 2.Jyothi Kiran 		gjk.24u10352@nitdgp.ac.in
