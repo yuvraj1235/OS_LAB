@@ -6,8 +6,8 @@
 #include <fcntl.h>
 #include <time.h>
 #include <string.h>
+#include <sys/stat.h> 
 
-// Function to check if a number is prime
 int isPrime(int num) {
     if (num < 2) return 0;
     if (num == 2) return 1;
@@ -18,119 +18,76 @@ int isPrime(int num) {
     return 1;
 }
 
-// Function to merge temporary files into prime.txt
 void mergeFiles(int n) {
-    int fd_out = open("prime.txt", O_CREAT | O_WRONLY | O_TRUNC, 0644);
-    if (fd_out < 0) {
-        perror("Error opening prime.txt");
-        return;
-    }
-    
+    int fd_out = open("human/prime.txt", O_CREAT | O_WRONLY | O_TRUNC, 0644);
     for (int i = 0; i < n; i++) {
         char filename[64];
-        sprintf(filename, "temp_primes_%d.txt", i);
-        
+        sprintf(filename, "temp_%d.txt", i);
         int fd_in = open(filename, O_RDONLY);
         if (fd_in < 0) continue;
-        
         char buffer[4096];
         ssize_t bytes;
-        while ((bytes = read(fd_in, buffer, sizeof(buffer))) > 0) {
+        while ((bytes = read(fd_in, buffer, sizeof(buffer))) > 0) 
             write(fd_out, buffer, bytes);
-        }
-        
         close(fd_in);
-        unlink(filename); // delete temp file
+        unlink(filename);
     }
-    
     close(fd_out);
 }
 
+double run_test(int rl, int rh, int n) {
+    struct timespec start, end;
+    clock_gettime(CLOCK_MONOTONIC, &start);
+
+    int range_size = (rh - rl + 1) / n;
+    for (int i = 0; i < n; i++) {
+        if (fork() == 0) {
+            int low = rl + i * range_size;
+            int high = (i == n - 1) ? rh : low + range_size - 1;
+            char filename[64];
+            sprintf(filename, "temp_%d.txt", i);
+            int fd = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0644);
+            char buf[64];
+            for (int x = low; x <= high; x++) {
+                if (isPrime(x)) {
+                    int len = sprintf(buf, "%d\n", x);
+                    write(fd, buf, len);
+                }
+            }
+            close(fd);
+            exit(0);
+        }
+    }
+    for (int i = 0; i < n; i++) wait(NULL);
+    mergeFiles(n);
+    clock_gettime(CLOCK_MONOTONIC, &end);
+
+    return (end.tv_sec - start.tv_sec) + (end.tv_nsec - start.tv_nsec) / 1e9;
+}
+
 int main() {
-    int rl, rh;
-    printf("Enter lower and upper range: ");
-    scanf("%d %d", &rl, &rh);
+    mkdir("human", 0777);
 
-    int cores = sysconf(_SC_NPROCESSORS_ONLN);
-    printf("Logical cores available: %d\n", cores);
+    int ranges[][2] = {{1000, 10000}, {50000, 100000}, {100000, 200000}};
+    int num_ranges = 3;
+    int max_cores = sysconf(_SC_NPROCESSORS_ONLN);
 
-    // IMPORTANT: Open CSV file ONCE and write header ONCE
-    FILE *csv = fopen("timing_manual.csv", "w");
-    if (!csv) {
-        perror("Error opening CSV");
-        return 1;
-    }
-    fprintf(csv, "Processes,Time\n");  // Write header ONLY ONCE
-    fclose(csv);  // Close it
+    FILE *csv = fopen("human/results.csv", "w");
+    fprintf(csv, "Range,Processes,Time\n");
 
-    // Test with 1 to cores number of processes
-    for (int n = 1; n <= cores; n++) {
-        
-        struct timespec start, end;
-        clock_gettime(CLOCK_MONOTONIC, &start);
+    for (int i = 0; i < num_ranges; i++) {
+        int rl = ranges[i][0];
+        int rh = ranges[i][1];
+        printf("Testing Range: %d to %d\n", rl, rh);
 
-        int range = (rh - rl + 1) / n;
-
-        // Create n child processes
-        for (int i = 0; i < n; i++) {
-            pid_t pid = fork();
-            
-            if (pid < 0) {
-                perror("Fork failed");
-                exit(1);
-            }
-            else if (pid == 0) { // CHILD PROCESS
-                int low = rl + i * range;
-                int high = (i == n-1) ? rh : low + range - 1;
-
-                // Each child writes to its OWN temporary file
-                char filename[64];
-                sprintf(filename, "temp_primes_%d.txt", i);
-                
-                int fd = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0644);
-                if (fd < 0) {
-                    perror("Child: error opening file");
-                    exit(1);
-                }
-
-                char buf[64];
-                for (int x = low; x <= high; x++) {
-                    if (isPrime(x)) {
-                        int len = sprintf(buf, "%d\n", x);
-                        write(fd, buf, len);
-                    }
-                }
-                
-                close(fd);
-                exit(0); // child terminates
-            }
-            // PARENT continues to fork next child
+        for (int n = 1; n <= max_cores; n++) {
+            double time_taken = run_test(rl, rh, n);
+            fprintf(csv, "%d-%d,%d,%lf\n", rl, rh, n, time_taken);
+            printf("  n=%d: %lf sec\n", n, time_taken);
         }
-
-        // PARENT: Wait for all children to complete
-        for (int i = 0; i < n; i++) {
-            wait(NULL);
-        }
-
-        // PARENT: Merge all temporary files
-        mergeFiles(n);
-
-        clock_gettime(CLOCK_MONOTONIC, &end);
-
-        double time_taken = (end.tv_sec - start.tv_sec) + 
-                           (end.tv_nsec - start.tv_nsec) / 1e9;
-        
-        // Append to CSV (open in append mode)
-        csv = fopen("timing_manual.csv", "a");
-        if (csv) {
-            fprintf(csv, "%d,%lf\n", n, time_taken);
-            fclose(csv);
-        }
-        
-        printf("Processes = %d, Time = %lf sec\n", n, time_taken);
     }
 
-    printf("\nResults saved to timing_manual.csv and prime.txt\n");
-
+    fclose(csv);
+    printf("\nAll data stored in 'human' folder.\n");
     return 0;
 }

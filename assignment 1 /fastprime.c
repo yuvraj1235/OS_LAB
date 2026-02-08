@@ -18,8 +18,6 @@ int is_prime(int n) {
     }
     return 1;
 }
-
-// Function to find primes in a given range and write to a temporary file
 void find_primes_in_range(int start, int end, int process_id) {
     char filename[50];
     sprintf(filename, "temp_primes_%d.txt", process_id);
@@ -38,8 +36,6 @@ void find_primes_in_range(int start, int end, int process_id) {
     
     fclose(fp);
 }
-
-// Function to merge all temporary files into prime.txt
 void merge_files(int num_processes) {
     FILE *output = fopen("prime.txt", "w");
     if (output == NULL) {
@@ -60,32 +56,25 @@ void merge_files(int num_processes) {
         }
         
         fclose(input);
-        remove(filename); // Delete temporary file
+        remove(filename);
     }
     
     fclose(output);
 }
-
-// Function to get current time in microseconds
 double get_time() {
     struct timeval tv;
     gettimeofday(&tv, NULL);
     return tv.tv_sec + tv.tv_usec / 1000000.0;
 }
-
-// Function to get number of logical processors
 int get_logical_processors() {
     return sysconf(_SC_NPROCESSORS_ONLN);
 }
-
-// Main function to compute primes using parallel processing
 double compute_primes_parallel(int rl, int rh, int num_processes) {
     double start_time = get_time();
     
     int range_size = (rh - rl + 1) / num_processes;
     pid_t pids[num_processes];
     
-    // Create child processes
     for (int i = 0; i < num_processes; i++) {
         pids[i] = fork();
         
@@ -94,7 +83,6 @@ double compute_primes_parallel(int rl, int rh, int num_processes) {
             exit(1);
         }
         else if (pids[i] == 0) {
-            // Child process
             int start = rl + i * range_size;
             int end = (i == num_processes - 1) ? rh : (start + range_size - 1);
             
@@ -103,12 +91,10 @@ double compute_primes_parallel(int rl, int rh, int num_processes) {
         }
     }
     
-    // Parent process waits for all children
     for (int i = 0; i < num_processes; i++) {
         waitpid(pids[i], NULL, 0);
     }
     
-    // Merge all temporary files
     merge_files(num_processes);
     
     double end_time = get_time();
