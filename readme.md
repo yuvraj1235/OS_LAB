@@ -129,7 +129,7 @@ If you want, I can: generate the `prompt.txt` files, run local token counts for 
 
 
 Yubraj pc 
-![Demo Screenshot](assignment_1/Yubraj_pc.png)
+![Demo Screenshot](Yubraj_pc.png)
 
 
 	NAME				MAIL.ID
