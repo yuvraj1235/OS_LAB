@@ -145,3 +145,4 @@ Roshini pc
 	Aryan kumar 		ak.24u10320@nitdgp.ac.in
 	Seepani Roshini		sr.24u10321@nitdgp.ac.in
 	Dinesh Baratam		bd.24u10340@nitdgp.ac.in
+	Partha Rana			pr.24u10323@nitdgp.ac.in
