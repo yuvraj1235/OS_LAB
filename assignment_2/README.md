@@ -25,6 +25,13 @@ When you run the program it will prompt for `N` (number of equations). The progr
 Write a C program that solves a system of N linear equations using Cramer's rule. Use log-arithmetic to compute determinants (return log(abs(det)) and sign) to avoid overflow/underflow. Generate a random matrix A and vector B with entries 1..10. Parallelize computation of numerator determinants Di across 8 worker processes using fork(); each worker writes `res_<p>.txt`. Parent collects results, computes solutions x[i], prints them and total runtime. Ensure memory safety and free allocations.
 ```
 
+**Performance Comparison**
+- **AI-generated code (`aiGen.c`):** 118.497647 seconds (measured on a random test case)
+- **Hand-written code (`manMade.c`):** 116.529 seconds (measured on the same test case)
+- **Difference:** ~1.97 seconds (AI-generated code ~1.7% slower)
+
+Both implementations follow similar approaches (Cramer's rule with log-arithmetic and 8-way parallelization). The small difference suggests both are comparable in terms of optimization and efficiency for this workload.
+
 **Token usage and notes**
 - **User-reported (Gemini):** ~1480 tokens for the request/context.
 - **OpenAI-style quick estimate:** the short prompt above is ~494 characters which heuristically maps to ~120–130 tokens (1 token ≈ 4 chars). This is only an approximation.
@@ -54,3 +61,13 @@ If you want me to estimate with `tiktoken`, I can run that here (for an OpenAI-s
 
 **Limitations & safety**
 - This program demonstrates numeric techniques for small to moderate N. Cramer's rule is O(N^4) with naive Di recomputation; for large N prefer Gaussian elimination or LU decomposition directly for performance.
+
+NAME				MAIL.ID
+Yubraj sau 			ys.24u10345@nitdgp.ac.in
+Jyothi Kiran 		gjk.24u10352@nitdgp.ac.in
+Yaswanth Kumar 		syk.24u10357@nitdgp.ac.in
+Sudipto Maity 		sm.24u10318@nitdgp.ac.in
+Aryan kumar 		ak.24u10320@nitdgp.ac.in
+Seepani Roshini		sr.24u10321@nitdgp.ac.in
+Dinesh Baratam		bd.24u10340@nitdgp.ac.in
+Partha Rana			pr.24u10323@nitdgp.ac.in
