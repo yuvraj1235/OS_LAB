@@ -30,7 +30,7 @@ This creates an executable file named `my_ps`.
 
 You should see the merged output displayed in your terminal.
 
-### Step 4: Install System-Wide (Optional)
+### Step 4: Install System-Wide
 
 Choose one of the following methods:
 
