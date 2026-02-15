@@ -36,7 +36,7 @@ typedef struct {
 } PSeLf;
 
 int main() {
-    // Execute commands and save to files
+
     system("ps aux > x1.txt");
     system("ps -eLf > x2.txt");
     
@@ -54,8 +54,6 @@ int main() {
     int aux_count = 0;
     int elf_count = 0;
     char buffer[MAX_LINE];
-    
-    // Read ps aux output (skip header)
     fgets(buffer, MAX_LINE, file1);
     while (fgets(buffer, MAX_LINE, file1) != NULL && aux_count < MAX_PROCESSES) {
         sscanf(buffer, "%s %d %s %s %s %s %s %s %s %s %[^\n]",
@@ -73,7 +71,6 @@ int main() {
         aux_count++;
     }
     
-    // Read ps -eLf output (skip header)
     fgets(buffer, MAX_LINE, file2);
     while (fgets(buffer, MAX_LINE, file2) != NULL && elf_count < MAX_PROCESSES) {
         sscanf(buffer, "%s %d %d %d %s %s %s %s %s %s %s %s %[^\n]",
@@ -93,12 +90,10 @@ int main() {
         elf_count++;
     }
     
-    // Write merged header
     fprintf(merged, "%-10s %-6s %-6s %-6s %-4s %-6s %-7s %-7s %-8s %-8s %-8s %-8s %-6s %-12s %-6s %-12s %-s\n",
             "UID", "PID", "PPID", "LWP", "C", "NLWP", "%CPU", "%MEM", "VSZ", "RSS", "TTY", 
             "STAT", "START", "TIME", "PSR", "STIME", "COMMAND");
     
-    // Merge data by matching PID
     for (int i = 0; i < elf_count; i++) {
         for (int j = 0; j < aux_count; j++) {
             if (elf_data[i].pid == aux_data[j].pid) {
@@ -129,7 +124,6 @@ int main() {
     fclose(file2);
     fclose(merged);
     
-    // Display the merged output
     printf("Merged output:\n");
     printf("==================================================\n");
     system("cat merged.txt");
