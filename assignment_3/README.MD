@@ -32,16 +32,14 @@ You should see the merged output displayed in your terminal.
 
 ### Step 4: Install System-Wide
 
-Choose one of the following methods:
-
-#### Method A: Install to /usr/local/bin (Recommended - Available to all users)
+#### Install to /usr/local/bin 
 
 ```bash
 sudo cp my_ps /usr/local/bin/
 sudo chmod +x /usr/local/bin/my_ps
 ```
 
-### Step 5: Verify Installation
+### Verify Installation
 
 ```bash
 # Try running from any directory
