@@ -86,7 +86,7 @@ int main() {
     // Parallel Cramer's Rule
     for (int p = 0; p < 8; p++) {
         if (fork() == 0) {
-            char fn[20];
+          char fn[20];
             sprintf(fn, "res_%d.txt", p);
             FILE *out = fopen(fn, "w");
 
@@ -129,7 +129,9 @@ int main() {
         remove(fn);
     }
 
-    gettimeofday(&t2, NULL);
+
+
+ gettimeofday(&t2, NULL);
 
     printf("\n--- SYSTEM SOLVED ---\n");
     for (int i = 0; i < n; i++)
@@ -141,4 +143,3 @@ int main() {
 
     return 0;
 }
-
