@@ -1,0 +1,1001 @@
+UID        PID    PPID   LWP    C    NLWP   %CPU    %MEM    VSZ      RSS      TTY      STAT     START  TIME         PSR    STIME        COMMAND
+root       1      0      1      0    1      0.0     0.0     43792    ?        ?        Ss       Feb13  0:08         00:00:08 /usr/lib/systemd/sys--switched-root /usr/lib/systemd/systemd --switched-root --system --deserialize=60 rhgb
+root       2      0      2      0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [kthreadd]   [kthreadd]
+root       3      2      3      0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [pool_workqueue_release] [pool_workqueue_release]
+root       4      2      4      0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-rcu_gp] [kworker/R-rcu_gp]
+root       5      2      5      0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-sync_wq] [kworker/R-sync_wq]
+root       6      2      6      0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-kvfree_rcu_reclaim] [kworker/R-kvfree_rcu_reclaim]
+root       7      2      7      0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-slub_flushwq] [kworker/R-slub_flushwq]
+root       8      2      8      0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-netns] [kworker/R-netns]
+root       10     2      10     0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/0:0H-events_highpri] [kworker/0:0H-events_highpri]
+root       13     2      13     0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-mm_percpu_wq] [kworker/R-mm_percpu_wq]
+root       15     2      15     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:01         00:00:01 [ksoftirqd/0] [ksoftirqd/0]
+root       16     2      16     0    1      0.0     0.0     0        ?        ?        I        Feb13  1:38         00:01:38 [rcu_preempt] [rcu_preempt]
+root       17     2      17     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [rcu_exp_par_gp_kthread_worker/1] [rcu_exp_par_gp_kthread_worker/1]
+root       18     2      18     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [rcu_exp_gp_kthread_worker] [rcu_exp_gp_kthread_worker]
+root       19     2      19     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:03         00:00:03 [migration/0] [migration/0]
+root       20     2      20     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [idle_inject/0] [idle_inject/0]
+root       21     2      21     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [cpuhp/0]    [cpuhp/0]
+root       22     2      22     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [cpuhp/2]    [cpuhp/2]
+root       23     2      23     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [idle_inject/2] [idle_inject/2]
+root       24     2      24     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:04         00:00:04 [migration/2] [migration/2]
+root       25     2      25     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [ksoftirqd/2] [ksoftirqd/2]
+root       27     2      27     0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/2:0H-events_highpri] [kworker/2:0H-events_highpri]
+root       28     2      28     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [cpuhp/4]    [cpuhp/4]
+root       29     2      29     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [idle_inject/4] [idle_inject/4]
+root       30     2      30     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:02         00:00:02 [migration/4] [migration/4]
+root       31     2      31     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [ksoftirqd/4] [ksoftirqd/4]
+root       33     2      33     0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/4:0H-events_highpri] [kworker/4:0H-events_highpri]
+root       34     2      34     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [cpuhp/6]    [cpuhp/6]
+root       35     2      35     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [idle_inject/6] [idle_inject/6]
+root       36     2      36     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:02         00:00:02 [migration/6] [migration/6]
+root       37     2      37     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [ksoftirqd/6] [ksoftirqd/6]
+root       39     2      39     0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/6:0H-events_highpri] [kworker/6:0H-events_highpri]
+root       40     2      40     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [cpuhp/8]    [cpuhp/8]
+root       41     2      41     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [idle_inject/8] [idle_inject/8]
+root       42     2      42     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:07         00:00:07 [migration/8] [migration/8]
+root       43     2      43     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [ksoftirqd/8] [ksoftirqd/8]
+root       45     2      45     0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/8:0H-events_highpri] [kworker/8:0H-events_highpri]
+root       46     2      46     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [cpuhp/10]   [cpuhp/10]
+root       47     2      47     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [idle_inject/10] [idle_inject/10]
+root       48     2      48     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:05         00:00:05 [migration/10] [migration/10]
+root       49     2      49     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [ksoftirqd/10] [ksoftirqd/10]
+root       51     2      51     0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/10:0H-events_highpri] [kworker/10:0H-events_highpri]
+root       52     2      52     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [rcu_exp_par_gp_kthread_worker/2] [rcu_exp_par_gp_kthread_worker/2]
+root       53     2      53     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [cpuhp/12]   [cpuhp/12]
+root       54     2      54     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [idle_inject/12] [idle_inject/12]
+root       55     2      55     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:20         00:00:20 [migration/12] [migration/12]
+root       56     2      56     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [ksoftirqd/12] [ksoftirqd/12]
+root       58     2      58     0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/12:0H-events_highpri] [kworker/12:0H-events_highpri]
+root       59     2      59     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [cpuhp/13]   [cpuhp/13]
+root       60     2      60     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [idle_inject/13] [idle_inject/13]
+root       61     2      61     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:13         00:00:13 [migration/13] [migration/13]
+root       62     2      62     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [ksoftirqd/13] [ksoftirqd/13]
+root       64     2      64     0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/13:0H-events_highpri] [kworker/13:0H-events_highpri]
+root       65     2      65     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [cpuhp/14]   [cpuhp/14]
+root       66     2      66     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [idle_inject/14] [idle_inject/14]
+root       67     2      67     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:10         00:00:10 [migration/14] [migration/14]
+root       68     2      68     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [ksoftirqd/14] [ksoftirqd/14]
+root       70     2      70     0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/14:0H-events_highpri] [kworker/14:0H-events_highpri]
+root       71     2      71     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [cpuhp/15]   [cpuhp/15]
+root       72     2      72     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [idle_inject/15] [idle_inject/15]
+root       73     2      73     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:07         00:00:07 [migration/15] [migration/15]
+root       74     2      74     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [ksoftirqd/15] [ksoftirqd/15]
+root       76     2      76     0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/15:0H-events_highpri] [kworker/15:0H-events_highpri]
+root       77     2      77     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [cpuhp/16]   [cpuhp/16]
+root       78     2      78     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [idle_inject/16] [idle_inject/16]
+root       79     2      79     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:05         00:00:05 [migration/16] [migration/16]
+root       80     2      80     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [ksoftirqd/16] [ksoftirqd/16]
+root       82     2      82     0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/16:0H-events_highpri] [kworker/16:0H-events_highpri]
+root       83     2      83     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [cpuhp/17]   [cpuhp/17]
+root       84     2      84     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [idle_inject/17] [idle_inject/17]
+root       85     2      85     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:04         00:00:04 [migration/17] [migration/17]
+root       86     2      86     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [ksoftirqd/17] [ksoftirqd/17]
+root       88     2      88     0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/17:0H-events_highpri] [kworker/17:0H-events_highpri]
+root       89     2      89     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [cpuhp/18]   [cpuhp/18]
+root       90     2      90     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [idle_inject/18] [idle_inject/18]
+root       91     2      91     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:03         00:00:03 [migration/18] [migration/18]
+root       92     2      92     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [ksoftirqd/18] [ksoftirqd/18]
+root       94     2      94     0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/18:0H-events_highpri] [kworker/18:0H-events_highpri]
+root       95     2      95     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [cpuhp/19]   [cpuhp/19]
+root       96     2      96     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [idle_inject/19] [idle_inject/19]
+root       97     2      97     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:03         00:00:03 [migration/19] [migration/19]
+root       98     2      98     0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [ksoftirqd/19] [ksoftirqd/19]
+root       100    2      100    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/19:0H-events_highpri] [kworker/19:0H-events_highpri]
+root       101    2      101    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [cpuhp/1]    [cpuhp/1]
+root       102    2      102    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [idle_inject/1] [idle_inject/1]
+root       103    2      103    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [migration/1] [migration/1]
+root       104    2      104    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:02         00:00:02 [ksoftirqd/1] [ksoftirqd/1]
+root       106    2      106    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/1:0H-events_highpri] [kworker/1:0H-events_highpri]
+root       107    2      107    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [cpuhp/3]    [cpuhp/3]
+root       108    2      108    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [idle_inject/3] [idle_inject/3]
+root       109    2      109    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [migration/3] [migration/3]
+root       110    2      110    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [ksoftirqd/3] [ksoftirqd/3]
+root       112    2      112    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/3:0H-events_highpri] [kworker/3:0H-events_highpri]
+root       113    2      113    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [cpuhp/5]    [cpuhp/5]
+root       114    2      114    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [idle_inject/5] [idle_inject/5]
+root       115    2      115    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [migration/5] [migration/5]
+root       116    2      116    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [ksoftirqd/5] [ksoftirqd/5]
+root       118    2      118    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/5:0H-events_highpri] [kworker/5:0H-events_highpri]
+root       119    2      119    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [cpuhp/7]    [cpuhp/7]
+root       120    2      120    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [idle_inject/7] [idle_inject/7]
+root       121    2      121    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [migration/7] [migration/7]
+root       122    2      122    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [ksoftirqd/7] [ksoftirqd/7]
+root       124    2      124    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/7:0H-events_highpri] [kworker/7:0H-events_highpri]
+root       125    2      125    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [cpuhp/9]    [cpuhp/9]
+root       126    2      126    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [idle_inject/9] [idle_inject/9]
+root       127    2      127    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [migration/9] [migration/9]
+root       128    2      128    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [ksoftirqd/9] [ksoftirqd/9]
+root       130    2      130    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/9:0H-events_highpri] [kworker/9:0H-events_highpri]
+root       131    2      131    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [cpuhp/11]   [cpuhp/11]
+root       132    2      132    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [idle_inject/11] [idle_inject/11]
+root       133    2      133    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [migration/11] [migration/11]
+root       134    2      134    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [ksoftirqd/11] [ksoftirqd/11]
+root       136    2      136    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/11:0H-events_highpri] [kworker/11:0H-events_highpri]
+root       137    2      137    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [kdevtmpfs]  [kdevtmpfs]
+root       138    2      138    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-inet_frag_wq] [kworker/R-inet_frag_wq]
+root       139    2      139    0    1      0.0     0.0     0        ?        ?        I        Feb13  0:00         00:00:00 [rcu_tasks_kthread] [rcu_tasks_kthread]
+root       140    2      140    0    1      0.0     0.0     0        ?        ?        I        Feb13  0:00         00:00:00 [rcu_tasks_rude_kthread] [rcu_tasks_rude_kthread]
+root       141    2      141    0    1      0.0     0.0     0        ?        ?        I        Feb13  0:00         00:00:00 [rcu_tasks_trace_kthread] [rcu_tasks_trace_kthread]
+root       142    2      142    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [kauditd]    [kauditd]
+root       143    2      143    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [oom_reaper] [oom_reaper]
+root       145    2      145    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-writeback] [kworker/R-writeback]
+root       146    2      146    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:07         00:00:07 [kcompactd0] [kcompactd0]
+root       147    2      147    0    1      0.0     0.0     0        ?        ?        SN       Feb13  0:00         00:00:00 [ksmd]       [ksmd]
+root       148    2      148    0    1      0.0     0.0     0        ?        ?        SN       Feb13  0:02         00:00:02 [khugepaged] [khugepaged]
+root       149    2      149    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-kblockd] [kworker/R-kblockd]
+root       150    2      150    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-blkcg_punt_bio] [kworker/R-blkcg_punt_bio]
+root       151    2      151    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-kintegrityd] [kworker/R-kintegrityd]
+root       153    2      153    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [irq/9-acpi] [irq/9-acpi]
+root       154    2      154    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-tpm_dev_wq] [kworker/R-tpm_dev_wq]
+root       155    2      155    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-ata_sff] [kworker/R-ata_sff]
+root       156    2      156    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-md_bitmap] [kworker/R-md_bitmap]
+root       157    2      157    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-md] [kworker/R-md]
+root       158    2      158    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-edac-poller] [kworker/R-edac-poller]
+root       159    2      159    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-devfreq_wq] [kworker/R-devfreq_wq]
+root       160    2      160    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [watchdogd]  [watchdogd]
+root       162    2      162    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-quota_events_unbound] [kworker/R-quota_events_unbound]
+root       164    2      164    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:04         00:00:04 [kworker/16:1H-i915_cleanup] [kworker/16:1H-i915_cleanup]
+root       166    2      166    0    1      0.0     0.0     0        ?        ?        S        Feb13  1:05         00:01:05 [kswapd0]    [kswapd0]
+root       167    2      167    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-cryptd] [kworker/R-cryptd]
+root       171    2      171    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-kthrotld] [kworker/R-kthrotld]
+root       172    2      172    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [irq/120-pciehp] [irq/120-pciehp]
+root       173    2      173    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-acpi_thermal_pm] [kworker/R-acpi_thermal_pm]
+root       175    2      175    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [hwrng]      [hwrng]
+root       180    2      180    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [scsi_eh_0]  [scsi_eh_0]
+root       181    2      181    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-scsi_tmf_0] [kworker/R-scsi_tmf_0]
+root       182    2      182    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [scsi_eh_1]  [scsi_eh_1]
+root       183    2      183    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-scsi_tmf_1] [kworker/R-scsi_tmf_1]
+root       184    2      184    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [scsi_eh_2]  [scsi_eh_2]
+root       185    2      185    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-scsi_tmf_2] [kworker/R-scsi_tmf_2]
+root       186    2      186    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [scsi_eh_3]  [scsi_eh_3]
+root       187    2      187    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-scsi_tmf_3] [kworker/R-scsi_tmf_3]
+root       188    2      188    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [scsi_eh_4]  [scsi_eh_4]
+root       189    2      189    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-scsi_tmf_4] [kworker/R-scsi_tmf_4]
+root       190    2      190    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [scsi_eh_5]  [scsi_eh_5]
+root       191    2      191    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-scsi_tmf_5] [kworker/R-scsi_tmf_5]
+root       192    2      192    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [scsi_eh_6]  [scsi_eh_6]
+root       193    2      193    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-scsi_tmf_6] [kworker/R-scsi_tmf_6]
+root       194    2      194    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [scsi_eh_7]  [scsi_eh_7]
+root       195    2      195    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-scsi_tmf_7] [kworker/R-scsi_tmf_7]
+root       205    2      205    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-hfi-updates] [kworker/R-hfi-updates]
+root       207    2      207    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-dm_bufio_cache] [kworker/R-dm_bufio_cache]
+root       209    2      209    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-mld] [kworker/R-mld]
+root       211    2      211    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-ipv6_addrconf] [kworker/R-ipv6_addrconf]
+root       212    2      212    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/14:1H-kblockd] [kworker/14:1H-kblockd]
+root       213    2      213    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-kstrp] [kworker/R-kstrp]
+root       298    2      298    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:02         00:00:02 [kworker/6:1H-i915_cleanup] [kworker/6:1H-i915_cleanup]
+root       301    2      301    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:01         00:00:01 [kworker/0:1H-i915_cleanup] [kworker/0:1H-i915_cleanup]
+root       303    2      303    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:02         00:00:02 [kworker/4:1H-i915_cleanup] [kworker/4:1H-i915_cleanup]
+root       346    2      346    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:02         00:00:02 [kworker/19:1H-i915_cleanup] [kworker/19:1H-i915_cleanup]
+root       349    2      349    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:01         00:00:01 [kworker/2:1H-i915_cleanup] [kworker/2:1H-i915_cleanup]
+root       351    2      351    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:01         00:00:01 [kworker/8:1H-i915_cleanup] [kworker/8:1H-i915_cleanup]
+root       354    2      354    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:01         00:00:01 [kworker/13:1H-i915_cleanup] [kworker/13:1H-i915_cleanup]
+root       355    2      355    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:01         00:00:01 [kworker/12:1H-kblockd] [kworker/12:1H-kblockd]
+root       356    2      356    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:01         00:00:01 [kworker/10:1H-kblockd] [kworker/10:1H-kblockd]
+root       388    2      388    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:02         00:00:02 [kworker/17:1H-i915_cleanup] [kworker/17:1H-i915_cleanup]
+root       516    2      516    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:11         00:00:11 [kworker/3:1H-events_highpri] [kworker/3:1H-events_highpri]
+root       527    2      527    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/15:1H-kblockd] [kworker/15:1H-kblockd]
+root       530    2      530    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/5:1H-kblockd] [kworker/5:1H-kblockd]
+root       531    2      531    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:03         00:00:03 [kworker/9:1H-kblockd] [kworker/9:1H-kblockd]
+root       532    2      532    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:05         00:00:05 [kworker/11:1H-i915_cleanup] [kworker/11:1H-i915_cleanup]
+root       533    2      533    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:02         00:00:02 [kworker/18:1H-i915_cleanup] [kworker/18:1H-i915_cleanup]
+root       534    2      534    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:01         00:00:01 [kworker/7:1H-kblockd] [kworker/7:1H-kblockd]
+root       535    2      535    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/1:1H-kblockd] [kworker/1:1H-kblockd]
+root       540    2      540    0    1      0.0     0.0     0        ?        ?        S        Feb13  1:52         00:01:52 [irq/132-GXTP5100:00] [irq/132-GXTP5100:00]
+root       555    2      555    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-nvme-wq] [kworker/R-nvme-wq]
+root       556    2      556    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-nvme-reset-wq] [kworker/R-nvme-reset-wq]
+root       557    2      557    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-nvme-delete-wq] [kworker/R-nvme-delete-wq]
+root       558    2      558    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-nvme-auth-wq] [kworker/R-nvme-auth-wq]
+root       560    2      560    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-USBC000:00-con1] [kworker/R-USBC000:00-con1]
+root       572    2      572    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-ttm] [kworker/R-ttm]
+root       577    2      577    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-btrfs-worker] [kworker/R-btrfs-worker]
+root       578    2      578    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-btrfs-delalloc] [kworker/R-btrfs-delalloc]
+root       579    2      579    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-btrfs-flush_delalloc] [kworker/R-btrfs-flush_delalloc]
+root       580    2      580    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-btrfs-cache] [kworker/R-btrfs-cache]
+root       581    2      581    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-btrfs-fixup] [kworker/R-btrfs-fixup]
+root       582    2      582    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-btrfs-endio] [kworker/R-btrfs-endio]
+root       583    2      583    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-btrfs-endio-meta] [kworker/R-btrfs-endio-meta]
+root       584    2      584    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-btrfs-rmw] [kworker/R-btrfs-rmw]
+root       585    2      585    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-btrfs-endio-write] [kworker/R-btrfs-endio-write]
+root       586    2      586    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-btrfs-compressed-write] [kworker/R-btrfs-compressed-write]
+root       587    2      587    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-btrfs-freespace-write] [kworker/R-btrfs-freespace-write]
+root       588    2      588    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-btrfs-delayed-meta] [kworker/R-btrfs-delayed-meta]
+root       589    2      589    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-btrfs-qgroup-rescan] [kworker/R-btrfs-qgroup-rescan]
+root       590    2      590    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [btrfs-cleaner] [btrfs-cleaner]
+root       591    2      591    0    1      0.0     0.0     0        ?        ?        S        Feb13  1:57         00:01:57 [btrfs-transaction] [btrfs-transaction]
+root       592    2      592    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [card1-crtc0] [card1-crtc0]
+root       593    2      593    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [card1-crtc1] [card1-crtc1]
+root       594    2      594    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [card1-crtc2] [card1-crtc2]
+root       595    2      595    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [card1-crtc3] [card1-crtc3]
+root       676    2      676    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [psimon]     [psimon]
+root       687    1      687    0    1      0.0     0.5     317496   ?        ?        Ss       Feb13  0:20         00:00:19 /usr/lib/systemd/systemd-journald /usr/lib/systemd/systemd-journald
+root       715    1      715    0    1      0.0     0.0     16604    ?        ?        Ss       Feb13  0:00         00:00:00 /usr/lib/systemd/systemd-userdbd /usr/lib/systemd/systemd-userdbd
+root       724    1      724    0    1      0.0     0.0     41932    ?        ?        Ss       Feb13  0:01         00:00:01 /usr/lib/systemd/systemd-udevd /usr/lib/systemd/systemd-udevd
+root       735    2      735    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [psimon]     [psimon]
+root       887    2      887    0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-cfg80211] [kworker/R-cfg80211]
+root       911    2      911    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [nv_queue]   [nv_queue]
+root       912    2      912    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [nv_queue]   [nv_queue]
+root       913    2      913    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [nv_open_q]  [nv_open_q]
+root       918    2      918    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:30         00:00:30 [irq/156-iwlwifi:default_queue] [irq/156-iwlwifi:default_queue]
+root       919    2      919    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [irq/157-iwlwifi:queue_1] [irq/157-iwlwifi:queue_1]
+root       920    2      920    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [irq/158-iwlwifi:queue_2] [irq/158-iwlwifi:queue_2]
+root       921    2      921    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [irq/159-iwlwifi:queue_3] [irq/159-iwlwifi:queue_3]
+root       924    2      924    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:17         00:00:17 [irq/160-iwlwifi:queue_4] [irq/160-iwlwifi:queue_4]
+root       926    2      926    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [irq/161-iwlwifi:queue_5] [irq/161-iwlwifi:queue_5]
+root       927    2      927    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [irq/162-iwlwifi:queue_6] [irq/162-iwlwifi:queue_6]
+root       928    2      928    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [irq/163-iwlwifi:queue_7] [irq/163-iwlwifi:queue_7]
+root       929    2      929    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:03         00:00:03 [irq/164-iwlwifi:queue_8] [irq/164-iwlwifi:queue_8]
+root       930    2      930    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:04         00:00:04 [irq/165-iwlwifi:queue_9] [irq/165-iwlwifi:queue_9]
+root       931    2      931    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:03         00:00:03 [irq/166-iwlwifi:queue_10] [irq/166-iwlwifi:queue_10]
+root       932    2      932    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [irq/167-iwlwifi:queue_11] [irq/167-iwlwifi:queue_11]
+root       933    2      933    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [irq/168-iwlwifi:queue_12] [irq/168-iwlwifi:queue_12]
+root       934    2      934    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [irq/169-iwlwifi:queue_13] [irq/169-iwlwifi:queue_13]
+root       935    2      935    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [irq/170-iwlwifi:queue_14] [irq/170-iwlwifi:queue_14]
+root       936    2      936    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [irq/171-iwlwifi:exception] [irq/171-iwlwifi:exception]
+root       948    2      948    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [irq/16-processor_thermal_device_pci] [irq/16-processor_thermal_device_pci]
+root       956    2      956    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [nvidia-modeset/kthread_q] [nvidia-modeset/kthread_q]
+root       957    2      957    0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [nvidia-modeset/deferred_close_kthread_q] [nvidia-modeset/deferred_close_kthread_q]
+root       1023   2      1023   0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [jbd2/nvme0n1p6-8] [jbd2/nvme0n1p6-8]
+root       1024   2      1024   0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-ext4-rsv-conversion] [kworker/R-ext4-rsv-conversion]
+systemd+   1101   1      1101   0    1      0.0     0.0     17340    ?        ?        Ss       Feb13  1:02         00:01:02 /usr/lib/systemd/systemd-oomd /usr/lib/systemd/systemd-oomd
+systemd+   1103   1      1103   0    1      0.0     0.0     25648    ?        ?        Ss       Feb13  0:26         00:00:26 /usr/lib/systemd/systemd-resolved /usr/lib/systemd/systemd-resolved
+root       1104   1      1104   0    2      0.0     0.0     20960    ?        ?        S<sl     Feb13  0:00         00:00:00 /usr/bin/auditd /usr/bin/auditd
+root       1104   1      1105   0    2      0.0     0.0     20960    ?        ?        S<sl     Feb13  0:00         00:00:00 /usr/bin/auditd /usr/bin/auditd
+dbus       1135   1      1135   0    1      0.0     0.0     9632     ?        ?        Ss       Feb13  0:00         00:00:00 /usr/bin/dbus-broker--scope /usr/bin/dbus-broker-launch --scope system --audit
+dbus       1136   1135   1136   0    1      0.0     0.0     9852     ?        ?        S        Feb13  0:07         00:00:07 dbus-broker  dbus-broker --log 10 --controller 9 --machine-id 13facde82a574414b20cddf3a34e86e2 --max-bytes 536870912 --max-fds 4096 --max-matches 131072 --audit
+avahi      1139   1      1139   0    1      0.0     0.0     6716     ?        ?        Ss       Feb13  0:00         00:00:00 avahi-daemon: avahi-daemon: running [fedora.local]
+root       1140   2      1140   0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [irq/174-nvidia] [irq/174-nvidia]
+root       1142   2      1142   0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [nv_queue]   [nv_queue]
+root       1146   1      1146   0    1      0.0     0.0     9544     ?        ?        Ss       Feb13  0:00         00:00:00 /usr/libexec/bluetooth/bluetoothd /usr/libexec/bluetooth/bluetoothd
+root       1155   1      1155   0    2      0.0     0.0     81032    ?        ?        Ssl      Feb13  0:08         00:00:08 /usr/sbin/irqbalance /usr/sbin/irqbalance
+root       1155   1      1235   0    2      0.0     0.0     81032    ?        ?        Ssl      Feb13  0:08         00:00:00 /usr/sbin/irqbalance /usr/sbin/irqbalance
+chrony     1159   1      1159   0    1      0.0     0.0     86424    ?        ?        Ss       Feb13  0:00         00:00:00 /usr/sbin/chronyd /usr/sbin/chronyd -n -F 2
+root       1164   1      1164   0    4      0.0     0.0     303040   ?        ?        SLsl     Feb13  0:00         00:00:00 /usr/libexec/low-memory-monitor /usr/libexec/low-memory-monitor
+root       1164   1      1220   0    4      0.0     0.0     303040   ?        ?        SLsl     Feb13  0:00         00:00:00 /usr/libexec/low-memory-monitor /usr/libexec/low-memory-monitor
+root       1164   1      1221   0    4      0.0     0.0     303040   ?        ?        SLsl     Feb13  0:00         00:00:00 /usr/libexec/low-memory-monitor /usr/libexec/low-memory-monitor
+root       1164   1      1223   0    4      0.0     0.0     303040   ?        ?        SLsl     Feb13  0:00         00:00:00 /usr/libexec/low-memory-monitor /usr/libexec/low-memory-monitor
+root       1167   1      1167   0    1      0.0     0.0     3208     ?        ?        Ss       Feb13  0:00         00:00:00 /usr/sbin/mcelog /usr/sbin/mcelog --daemon --foreground
+root       1168   1      1168   0    5      0.0     0.0     305752   ?        ?        Ssl      Feb13  0:39         00:00:28 /usr/bin/nvidia-powerd /usr/bin/nvidia-powerd
+root       1168   1      1635   0    5      0.0     0.0     305752   ?        ?        Ssl      Feb13  0:39         00:00:00 /usr/bin/nvidia-powerd /usr/bin/nvidia-powerd
+root       1168   1      1647   0    5      0.0     0.0     305752   ?        ?        Ssl      Feb13  0:39         00:00:03 /usr/bin/nvidia-powerd /usr/bin/nvidia-powerd
+root       1168   1      1648   0    5      0.0     0.0     305752   ?        ?        Ssl      Feb13  0:39         00:00:02 /usr/bin/nvidia-powerd /usr/bin/nvidia-powerd
+root       1168   1      1649   0    5      0.0     0.0     305752   ?        ?        Ssl      Feb13  0:39         00:00:05 /usr/bin/nvidia-powerd /usr/bin/nvidia-powerd
+polkitd    1169   1      1169   0    4      0.0     0.0     385728   ?        ?        Ssl      Feb13  0:12         00:00:07 /usr/lib/polkit-1/po--no-debug /usr/lib/polkit-1/polkitd --no-debug --log-level=notice
+polkitd    1169   1      1274   0    4      0.0     0.0     385728   ?        ?        Ssl      Feb13  0:12         00:00:01 /usr/lib/polkit-1/po--no-debug /usr/lib/polkit-1/polkitd --no-debug --log-level=notice
+polkitd    1169   1      1276   0    4      0.0     0.0     385728   ?        ?        Ssl      Feb13  0:12         00:00:00 /usr/lib/polkit-1/po--no-debug /usr/lib/polkit-1/polkitd --no-debug --log-level=notice
+polkitd    1169   1      1283   0    4      0.0     0.0     385728   ?        ?        Ssl      Feb13  0:12         00:00:01 /usr/lib/polkit-1/po--no-debug /usr/lib/polkit-1/polkitd --no-debug --log-level=notice
+rtkit      1170   1      1170   0    3      0.0     0.0     21728    ?        ?        SNsl     Feb13  0:00         00:00:00 /usr/libexec/rtkit-daemon /usr/libexec/rtkit-daemon
+rtkit      1170   1      1231   0    3      0.0     0.0     21728    ?        ?        SNsl     Feb13  0:00         00:00:00 /usr/libexec/rtkit-daemon /usr/libexec/rtkit-daemon
+rtkit      1170   1      1232   0    3      0.0     0.0     21728    ?        ?        SNsl     Feb13  0:00         00:00:00 /usr/libexec/rtkit-daemon /usr/libexec/rtkit-daemon
+root       1171   1      1171   0    1      0.0     0.0     9684     ?        ?        Ss       Feb13  0:00         00:00:00 /usr/bin/smartd /usr/bin/smartd -n -q never --capabilities=mail
+root       1172   1      1172   0    4      0.0     0.0     534172   ?        ?        Ssl      Feb13  0:02         00:00:00 /usr/libexec/accounts-daemon /usr/libexec/accounts-daemon
+root       1172   1      1242   0    4      0.0     0.0     534172   ?        ?        Ssl      Feb13  0:02         00:00:00 /usr/libexec/accounts-daemon /usr/libexec/accounts-daemon
+root       1172   1      1243   0    4      0.0     0.0     534172   ?        ?        Ssl      Feb13  0:02         00:00:02 /usr/libexec/accounts-daemon /usr/libexec/accounts-daemon
+root       1172   1      1245   0    4      0.0     0.0     534172   ?        ?        Ssl      Feb13  0:02         00:00:00 /usr/libexec/accounts-daemon /usr/libexec/accounts-daemon
+root       1173   1      1173   0    4      0.0     0.0     531584   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/switcheroo-control /usr/libexec/switcheroo-control
+root       1173   1      1227   0    4      0.0     0.0     531584   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/switcheroo-control /usr/libexec/switcheroo-control
+root       1173   1      1228   0    4      0.0     0.0     531584   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/switcheroo-control /usr/libexec/switcheroo-control
+root       1173   1      1230   0    4      0.0     0.0     531584   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/switcheroo-control /usr/libexec/switcheroo-control
+root       1177   1      1177   0    1      0.0     0.0     17560    ?        ?        Ss       Feb13  0:02         00:00:02 /usr/lib/systemd/systemd-homed /usr/lib/systemd/systemd-homed
+root       1180   1      1180   0    1      0.0     0.0     20028    ?        ?        Ss       Feb13  0:03         00:00:03 /usr/lib/systemd/systemd-logind /usr/lib/systemd/systemd-logind
+root       1181   1      1181   0    1      0.0     0.0     17236    ?        ?        Ss       Feb13  0:02         00:00:02 /usr/lib/systemd/systemd-machined /usr/lib/systemd/systemd-machined
+root       1185   1      1185   0    5      0.0     0.0     610668   ?        ?        Ssl      Feb13  0:29         00:00:00 /usr/bin/thermald /usr/bin/thermald --systemd --dbus-enable --adaptive
+root       1185   1      1200   0    5      0.0     0.0     610668   ?        ?        Ssl      Feb13  0:29         00:00:00 /usr/bin/thermald /usr/bin/thermald --systemd --dbus-enable --adaptive
+root       1185   1      1202   0    5      0.0     0.0     610668   ?        ?        Ssl      Feb13  0:29         00:00:00 /usr/bin/thermald /usr/bin/thermald --systemd --dbus-enable --adaptive
+root       1185   1      1207   0    5      0.0     0.0     610668   ?        ?        Ssl      Feb13  0:29         00:00:00 /usr/bin/thermald /usr/bin/thermald --systemd --dbus-enable --adaptive
+root       1185   1      1395   0    5      0.0     0.0     610668   ?        ?        Ssl      Feb13  0:29         00:00:28 /usr/bin/thermald /usr/bin/thermald --systemd --dbus-enable --adaptive
+root       1189   1      1189   0    7      0.0     0.0     543656   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/udisks2/udisksd /usr/libexec/udisks2/udisksd
+root       1189   1      1201   0    7      0.0     0.0     543656   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/udisks2/udisksd /usr/libexec/udisks2/udisksd
+root       1189   1      1203   0    7      0.0     0.0     543656   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/udisks2/udisksd /usr/libexec/udisks2/udisksd
+root       1189   1      1208   0    7      0.0     0.0     543656   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/udisks2/udisksd /usr/libexec/udisks2/udisksd
+root       1189   1      1328   0    7      0.0     0.0     543656   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/udisks2/udisksd /usr/libexec/udisks2/udisksd
+root       1189   1      1330   0    7      0.0     0.0     543656   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/udisks2/udisksd /usr/libexec/udisks2/udisksd
+root       1189   1      1348   0    7      0.0     0.0     543656   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/udisks2/udisksd /usr/libexec/udisks2/udisksd
+root       1195   1      1195   0    4      0.0     0.0     542836   ?        ?        Ssl      Feb13  0:08         00:00:07 /usr/libexec/upowerd /usr/libexec/upowerd
+root       1195   1      1239   0    4      0.0     0.0     542836   ?        ?        Ssl      Feb13  0:08         00:00:00 /usr/libexec/upowerd /usr/libexec/upowerd
+root       1195   1      1240   0    4      0.0     0.0     542836   ?        ?        Ssl      Feb13  0:08         00:00:00 /usr/libexec/upowerd /usr/libexec/upowerd
+root       1195   1      1241   0    4      0.0     0.0     542836   ?        ?        Ssl      Feb13  0:08         00:00:00 /usr/libexec/upowerd /usr/libexec/upowerd
+root       1197   1      1197   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:01:12 /bin/warp-svc /bin/warp-svc
+root       1197   1      1275   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:43 /bin/warp-svc /bin/warp-svc
+root       1197   1      1278   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:13 /bin/warp-svc /bin/warp-svc
+root       1197   1      1279   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:01:14 /bin/warp-svc /bin/warp-svc
+root       1197   1      1280   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:02 /bin/warp-svc /bin/warp-svc
+root       1197   1      1281   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:30 /bin/warp-svc /bin/warp-svc
+root       1197   1      1282   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:01:03 /bin/warp-svc /bin/warp-svc
+root       1197   1      1284   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1197   1      1285   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:53 /bin/warp-svc /bin/warp-svc
+root       1197   1      1286   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:04 /bin/warp-svc /bin/warp-svc
+root       1197   1      1287   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:01:04 /bin/warp-svc /bin/warp-svc
+root       1197   1      1288   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:01:16 /bin/warp-svc /bin/warp-svc
+root       1197   1      1289   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:17 /bin/warp-svc /bin/warp-svc
+root       1197   1      1291   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:01:14 /bin/warp-svc /bin/warp-svc
+root       1197   1      1292   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:30 /bin/warp-svc /bin/warp-svc
+root       1197   1      1293   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:17 /bin/warp-svc /bin/warp-svc
+root       1197   1      1294   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:01:36 /bin/warp-svc /bin/warp-svc
+root       1197   1      1295   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:47 /bin/warp-svc /bin/warp-svc
+root       1197   1      1296   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1197   1      1297   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:18 /bin/warp-svc /bin/warp-svc
+root       1197   1      1298   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:01:27 /bin/warp-svc /bin/warp-svc
+root       1197   1      1310   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:02 /bin/warp-svc /bin/warp-svc
+root       1197   1      1319   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:01 /bin/warp-svc /bin/warp-svc
+root       1197   1      1324   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1197   1      1326   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1197   1      1327   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1197   1      1329   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1197   1      1331   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1197   1      1332   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1197   1      1333   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1197   1      1334   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1197   1      1335   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1197   1      1336   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1197   1      1337   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1197   1      1338   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1197   1      1846   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1197   1      1850   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:30 /bin/warp-svc /bin/warp-svc
+root       1197   1      1852   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1197   1      1854   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1197   1      1855   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1197   1      1856   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1197   1      1857   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1197   1      1858   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1197   1      1859   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1197   1      1860   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1197   1      1861   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1197   1      1862   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1197   1      1863   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1197   1      1864   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1197   1      1865   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1197   1      1866   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1197   1      1868   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1197   1      1869   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1197   1      1870   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1197   1      1871   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1197   1      1872   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1197   1      1873   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1197   1      1874   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1197   1      1876   0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1197   1      298381 0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1197   1      308327 0    61     0.5     0.7     5657732  ?        ?        Ssl      Feb13  16:12        00:00:00 /bin/warp-svc /bin/warp-svc
+root       1209   2      1209   0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [psimon]     [psimon]
+avahi      1213   1139   1213   0    1      0.0     0.0     6444     ?        ?        S        Feb13  0:00         00:00:00 avahi-daemon: avahi-daemon: chroot helper
+root       1224   2      1224   0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [psimon]     [psimon]
+root       1234   1      1234   0    1      0.0     0.0     4924     ?        ?        SNs      Feb13  0:00         00:00:00 /usr/sbin/alsactl /usr/sbin/alsactl -s -n 19 -c -E ALSA_CONFIG_PATH=/etc/alsa/alsactl.conf --initfile=/lib/alsa/init/00main rdaemon
+root       1318   1      1318   0    4      0.0     0.0     553768   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/sbin/abrtd /usr/sbin/abrtd -d -s
+root       1318   1      1351   0    4      0.0     0.0     553768   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/sbin/abrtd /usr/sbin/abrtd -d -s
+root       1318   1      1352   0    4      0.0     0.0     553768   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/sbin/abrtd /usr/sbin/abrtd -d -s
+root       1318   1      1354   0    4      0.0     0.0     553768   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/sbin/abrtd /usr/sbin/abrtd -d -s
+root       1341   1      1341   0    4      0.0     0.0     391388   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/ModemManager /usr/bin/ModemManager
+root       1341   1      1343   0    4      0.0     0.0     391388   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/ModemManager /usr/bin/ModemManager
+root       1341   1      1344   0    4      0.0     0.0     391388   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/ModemManager /usr/bin/ModemManager
+root       1341   1      1347   0    4      0.0     0.0     391388   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/ModemManager /usr/bin/ModemManager
+root       1342   1      1342   0    2      0.0     0.1     373872   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/python3 /usr/bin/python3 -sP /usr/bin/firewalld --nofork --nopid
+root       1342   1      1434   0    2      0.0     0.1     373872   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/python3 /usr/bin/python3 -sP /usr/bin/firewalld --nofork --nopid
+root       1355   1      1355   0    1      0.0     0.0     984640   ?        ?        Ss       Feb13  0:04         00:00:04 /usr/bin/abrt-dump-j-D /usr/bin/abrt-dump-journal-core -D -T -f -e
+root       1356   1      1356   0    1      0.0     0.0     983920   ?        ?        Ss       Feb13  0:04         00:00:04 /usr/bin/abrt-dump-j-fxtD /usr/bin/abrt-dump-journal-oops -fxtD
+root       1357   1      1357   0    1      0.0     0.0     984180   ?        ?        Ss       Feb13  0:07         00:00:07 /usr/bin/abrt-dump-j-fxtD /usr/bin/abrt-dump-journal-xorg -fxtD
+root       1402   2      1402   0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-rpciod] [kworker/R-rpciod]
+root       1403   2      1403   0    1      0.0     0.0     0        ?        ?        I<       Feb13  0:00         00:00:00 [kworker/R-xprtiod] [kworker/R-xprtiod]
+root       1433   1      1433   0    4      0.0     0.1     562112   ?        ?        Ssl      Feb13  0:22         00:00:17 /usr/bin/NetworkMana--no-daemon /usr/bin/NetworkManager --no-daemon
+root       1433   1      1435   0    4      0.0     0.1     562112   ?        ?        Ssl      Feb13  0:22         00:00:00 /usr/bin/NetworkMana--no-daemon /usr/bin/NetworkManager --no-daemon
+root       1433   1      1436   0    4      0.0     0.1     562112   ?        ?        Ssl      Feb13  0:22         00:00:00 /usr/bin/NetworkMana--no-daemon /usr/bin/NetworkManager --no-daemon
+root       1433   1      1437   0    4      0.0     0.1     562112   ?        ?        Ssl      Feb13  0:22         00:00:03 /usr/bin/NetworkMana--no-daemon /usr/bin/NetworkManager --no-daemon
+root       1456   1      1456   0    1      0.0     0.0     16668    ?        ?        Ss       Feb13  0:02         00:00:02 /usr/sbin/wpa_suppli-c /usr/sbin/wpa_supplicant -c /etc/wpa_supplicant/wpa_supplicant.conf -u -s
+root       1472   1      1472   0    1      0.0     0.0     335612   ?        ?        Ss       Feb13  0:00         00:00:00 /usr/bin/cupsd /usr/bin/cupsd -l
+root       1473   1      1473   0    6      0.0     0.0     282388   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/gssproxy /usr/bin/gssproxy -i
+root       1473   1      1520   0    6      0.0     0.0     282388   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/gssproxy /usr/bin/gssproxy -i
+root       1473   1      1521   0    6      0.0     0.0     282388   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/gssproxy /usr/bin/gssproxy -i
+root       1473   1      1522   0    6      0.0     0.0     282388   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/gssproxy /usr/bin/gssproxy -i
+root       1473   1      1523   0    6      0.0     0.0     282388   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/gssproxy /usr/bin/gssproxy -i
+root       1473   1      1524   0    6      0.0     0.0     282388   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/gssproxy /usr/bin/gssproxy -i
+root       1478   1      1478   0    1      0.0     0.0     2900     ?        ?        Ss       Feb13  0:00         00:00:00 /bin/sh      /bin/sh /snap/cups/1142/scripts/run-cups-browsed
+root       1480   1      1480   0    1      0.0     0.0     2900     ?        ?        Ss       Feb13  0:00         00:00:00 /bin/sh      /bin/sh /snap/cups/1142/scripts/run-cupsd
+root       1481   1      1481   0    4      0.0     0.0     500092   ?        ?        Ssl      Feb13  0:13         00:00:06 /usr/bin/python3 /usr/bin/python3 -Es /usr/sbin/tuned -l -P
+root       1481   1      1616   0    4      0.0     0.0     500092   ?        ?        Ssl      Feb13  0:13         00:00:00 /usr/bin/python3 /usr/bin/python3 -Es /usr/sbin/tuned -l -P
+root       1481   1      8051   0    4      0.0     0.0     500092   ?        ?        Ssl      Feb13  0:13         00:00:06 /usr/bin/python3 /usr/bin/python3 -Es /usr/sbin/tuned -l -P
+root       1481   1      8119   0    4      0.0     0.0     500092   ?        ?        Ssl      Feb13  0:13         00:00:00 /usr/bin/python3 /usr/bin/python3 -Es /usr/sbin/tuned -l -P
+root       1507   1      1507   0    23     0.0     0.0     2185820  ?        ?        Ssl      Feb13  1:07         00:00:00 /usr/bin/containerd /usr/bin/containerd
+root       1507   1      1531   0    23     0.0     0.0     2185820  ?        ?        Ssl      Feb13  1:07         00:00:14 /usr/bin/containerd /usr/bin/containerd
+root       1507   1      1532   0    23     0.0     0.0     2185820  ?        ?        Ssl      Feb13  1:07         00:00:02 /usr/bin/containerd /usr/bin/containerd
+root       1507   1      1533   0    23     0.0     0.0     2185820  ?        ?        Ssl      Feb13  1:07         00:00:00 /usr/bin/containerd /usr/bin/containerd
+root       1507   1      1534   0    23     0.0     0.0     2185820  ?        ?        Ssl      Feb13  1:07         00:00:00 /usr/bin/containerd /usr/bin/containerd
+root       1507   1      1535   0    23     0.0     0.0     2185820  ?        ?        Ssl      Feb13  1:07         00:00:00 /usr/bin/containerd /usr/bin/containerd
+root       1507   1      1568   0    23     0.0     0.0     2185820  ?        ?        Ssl      Feb13  1:07         00:00:00 /usr/bin/containerd /usr/bin/containerd
+root       1507   1      1569   0    23     0.0     0.0     2185820  ?        ?        Ssl      Feb13  1:07         00:00:06 /usr/bin/containerd /usr/bin/containerd
+root       1507   1      1570   0    23     0.0     0.0     2185820  ?        ?        Ssl      Feb13  1:07         00:00:06 /usr/bin/containerd /usr/bin/containerd
+root       1507   1      1571   0    23     0.0     0.0     2185820  ?        ?        Ssl      Feb13  1:07         00:00:00 /usr/bin/containerd /usr/bin/containerd
+root       1507   1      1576   0    23     0.0     0.0     2185820  ?        ?        Ssl      Feb13  1:07         00:00:07 /usr/bin/containerd /usr/bin/containerd
+root       1507   1      1577   0    23     0.0     0.0     2185820  ?        ?        Ssl      Feb13  1:07         00:00:05 /usr/bin/containerd /usr/bin/containerd
+root       1507   1      1595   0    23     0.0     0.0     2185820  ?        ?        Ssl      Feb13  1:07         00:00:00 /usr/bin/containerd /usr/bin/containerd
+root       1507   1      1596   0    23     0.0     0.0     2185820  ?        ?        Ssl      Feb13  1:07         00:00:06 /usr/bin/containerd /usr/bin/containerd
+root       1507   1      1612   0    23     0.0     0.0     2185820  ?        ?        Ssl      Feb13  1:07         00:00:00 /usr/bin/containerd /usr/bin/containerd
+root       1507   1      1613   0    23     0.0     0.0     2185820  ?        ?        Ssl      Feb13  1:07         00:00:00 /usr/bin/containerd /usr/bin/containerd
+root       1507   1      1618   0    23     0.0     0.0     2185820  ?        ?        Ssl      Feb13  1:07         00:00:06 /usr/bin/containerd /usr/bin/containerd
+root       1507   1      1619   0    23     0.0     0.0     2185820  ?        ?        Ssl      Feb13  1:07         00:00:00 /usr/bin/containerd /usr/bin/containerd
+root       1507   1      3749   0    23     0.0     0.0     2185820  ?        ?        Ssl      Feb13  1:07         00:00:00 /usr/bin/containerd /usr/bin/containerd
+root       1507   1      3755   0    23     0.0     0.0     2185820  ?        ?        Ssl      Feb13  1:07         00:00:03 /usr/bin/containerd /usr/bin/containerd
+root       1507   1      3756   0    23     0.0     0.0     2185820  ?        ?        Ssl      Feb13  1:07         00:00:03 /usr/bin/containerd /usr/bin/containerd
+root       1507   1      3763   0    23     0.0     0.0     2185820  ?        ?        Ssl      Feb13  1:07         00:00:04 /usr/bin/containerd /usr/bin/containerd
+root       1507   1      3764   0    23     0.0     0.0     2185820  ?        ?        Ssl      Feb13  1:07         00:00:00 /usr/bin/containerd /usr/bin/containerd
+colord     1527   1      1527   0    4      0.0     0.0     538676   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/colord /usr/libexec/colord
+colord     1527   1      1581   0    4      0.0     0.0     538676   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/colord /usr/libexec/colord
+colord     1527   1      1582   0    4      0.0     0.0     538676   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/colord /usr/libexec/colord
+colord     1527   1      1584   0    4      0.0     0.0     538676   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/colord /usr/libexec/colord
+mysql      1606   1      1606   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:00 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1653   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:02 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1654   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:02 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1655   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:02 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1656   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:02 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1657   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:02 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1658   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:02 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1659   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:02 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1660   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:02 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1661   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:02 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1662   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:02 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1663   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:02 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1664   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:02 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1665   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:02 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1666   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:02 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1667   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:02 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1668   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:02 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1722   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:01 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1723   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:16 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1724   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:17 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1725   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:17 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1726   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:18 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1727   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:03:31 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1732   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:01 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1733   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:02 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1734   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:00 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1745   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:00 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1747   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:04 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1748   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:00 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1749   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:00 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1754   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:00 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1755   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:00 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1756   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:02 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1774   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:00 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1775   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:24 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1776   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:00 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1777   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:00 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1778   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:00 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1779   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:00 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1780   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:00 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1781   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:00 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1782   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:00 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+mysql      1606   1      1784   0    43     0.2     0.0     2214144  ?        ?        Ssl      Feb13  6:05         00:00:00 /usr/libexec/mysqld /usr/libexec/mysqld --basedir=/usr
+root       1617   1      1617   0    4      0.0     0.0     498320   ?        ?        Ssl      Feb13  0:06         00:00:06 /usr/bin/python3 /usr/bin/python3 -Es /usr/sbin/tuned-ppd -l
+root       1617   1      1629   0    4      0.0     0.0     498320   ?        ?        Ssl      Feb13  0:06         00:00:00 /usr/bin/python3 /usr/bin/python3 -Es /usr/sbin/tuned-ppd -l
+root       1617   1      1630   0    4      0.0     0.0     498320   ?        ?        Ssl      Feb13  0:06         00:00:00 /usr/bin/python3 /usr/bin/python3 -Es /usr/sbin/tuned-ppd -l
+root       1617   1      1631   0    4      0.0     0.0     498320   ?        ?        Ssl      Feb13  0:06         00:00:00 /usr/bin/python3 /usr/bin/python3 -Es /usr/sbin/tuned-ppd -l
+root       1770   1480   1770   0    1      0.0     0.0     61816    ?        ?        S        Feb13  0:00         00:00:00 cupsd        cupsd -f -s /var/snap/cups/common/etc/cups/cups-files.conf -c /var/snap/cups/common/etc/cups/cupsd.conf
+root       1772   1480   1772   0    4      0.0     0.0     241760   ?        ?        Sl       Feb13  0:01         00:00:01 cups-proxyd  cups-proxyd /var/snap/cups/common/run/cups.sock /run/cups/cups.sock -l --logdir /var/snap/cups/1142/var/log
+root       1772   1480   1789   0    4      0.0     0.0     241760   ?        ?        Sl       Feb13  0:01         00:00:00 cups-proxyd  cups-proxyd /var/snap/cups/common/run/cups.sock /run/cups/cups.sock -l --logdir /var/snap/cups/1142/var/log
+root       1772   1480   1790   0    4      0.0     0.0     241760   ?        ?        Sl       Feb13  0:01         00:00:00 cups-proxyd  cups-proxyd /var/snap/cups/common/run/cups.sock /run/cups/cups.sock -l --logdir /var/snap/cups/1142/var/log
+root       1772   1480   1791   0    4      0.0     0.0     241760   ?        ?        Sl       Feb13  0:01         00:00:00 cups-proxyd  cups-proxyd /var/snap/cups/common/run/cups.sock /run/cups/cups.sock -l --logdir /var/snap/cups/1142/var/log
+root       1787   1478   1787   0    1      0.0     0.0     2900     ?        ?        S        Feb13  0:00         00:00:00 /bin/sh      /bin/sh /snap/cups/1142/scripts/run-cups-browsed
+root       1879   1      1879   0    25     0.0     0.1     2329408  ?        ?        Ssl      Feb13  0:11         00:00:00 /usr/bin/dockerd /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root       1879   1      1914   0    25     0.0     0.1     2329408  ?        ?        Ssl      Feb13  0:11         00:00:01 /usr/bin/dockerd /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root       1879   1      1916   0    25     0.0     0.1     2329408  ?        ?        Ssl      Feb13  0:11         00:00:00 /usr/bin/dockerd /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root       1879   1      1918   0    25     0.0     0.1     2329408  ?        ?        Ssl      Feb13  0:11         00:00:00 /usr/bin/dockerd /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root       1879   1      1919   0    25     0.0     0.1     2329408  ?        ?        Ssl      Feb13  0:11         00:00:00 /usr/bin/dockerd /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root       1879   1      1920   0    25     0.0     0.1     2329408  ?        ?        Ssl      Feb13  0:11         00:00:00 /usr/bin/dockerd /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root       1879   1      1946   0    25     0.0     0.1     2329408  ?        ?        Ssl      Feb13  0:11         00:00:00 /usr/bin/dockerd /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root       1879   1      1947   0    25     0.0     0.1     2329408  ?        ?        Ssl      Feb13  0:11         00:00:01 /usr/bin/dockerd /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root       1879   1      1948   0    25     0.0     0.1     2329408  ?        ?        Ssl      Feb13  0:11         00:00:00 /usr/bin/dockerd /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root       1879   1      1949   0    25     0.0     0.1     2329408  ?        ?        Ssl      Feb13  0:11         00:00:00 /usr/bin/dockerd /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root       1879   1      1950   0    25     0.0     0.1     2329408  ?        ?        Ssl      Feb13  0:11         00:00:01 /usr/bin/dockerd /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root       1879   1      1951   0    25     0.0     0.1     2329408  ?        ?        Ssl      Feb13  0:11         00:00:00 /usr/bin/dockerd /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root       1879   1      1952   0    25     0.0     0.1     2329408  ?        ?        Ssl      Feb13  0:11         00:00:00 /usr/bin/dockerd /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root       1879   1      1953   0    25     0.0     0.1     2329408  ?        ?        Ssl      Feb13  0:11         00:00:01 /usr/bin/dockerd /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root       1879   1      1957   0    25     0.0     0.1     2329408  ?        ?        Ssl      Feb13  0:11         00:00:01 /usr/bin/dockerd /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root       1879   1      1958   0    25     0.0     0.1     2329408  ?        ?        Ssl      Feb13  0:11         00:00:00 /usr/bin/dockerd /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root       1879   1      1959   0    25     0.0     0.1     2329408  ?        ?        Ssl      Feb13  0:11         00:00:00 /usr/bin/dockerd /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root       1879   1      2005   0    25     0.0     0.1     2329408  ?        ?        Ssl      Feb13  0:11         00:00:01 /usr/bin/dockerd /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root       1879   1      2006   0    25     0.0     0.1     2329408  ?        ?        Ssl      Feb13  0:11         00:00:00 /usr/bin/dockerd /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root       1879   1      2007   0    25     0.0     0.1     2329408  ?        ?        Ssl      Feb13  0:11         00:00:00 /usr/bin/dockerd /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root       1879   1      2009   0    25     0.0     0.1     2329408  ?        ?        Ssl      Feb13  0:11         00:00:00 /usr/bin/dockerd /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root       1879   1      2332   0    25     0.0     0.1     2329408  ?        ?        Ssl      Feb13  0:11         00:00:01 /usr/bin/dockerd /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root       1879   1      2436   0    25     0.0     0.1     2329408  ?        ?        Ssl      Feb13  0:11         00:00:00 /usr/bin/dockerd /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root       1879   1      2438   0    25     0.0     0.1     2329408  ?        ?        Ssl      Feb13  0:11         00:00:01 /usr/bin/dockerd /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root       1879   1      2439   0    25     0.0     0.1     2329408  ?        ?        Ssl      Feb13  0:11         00:00:00 /usr/bin/dockerd /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root       1882   1      1882   0    3      0.0     0.0     881848   ?        ?        Ssl      Feb13  0:53         00:00:00 /usr/sbin/rsyslogd /usr/sbin/rsyslogd -n
+root       1882   1      1917   0    3      0.0     0.0     881848   ?        ?        Ssl      Feb13  0:53         00:00:48 /usr/sbin/rsyslogd /usr/sbin/rsyslogd -n
+root       1882   1      1928   0    3      0.0     0.0     881848   ?        ?        Ssl      Feb13  0:53         00:00:04 /usr/sbin/rsyslogd /usr/sbin/rsyslogd -n
+root       1891   1      1891   0    1      0.0     0.0     5120     ?        ?        Ss       Feb13  0:00         00:00:00 /usr/sbin/atd /usr/sbin/atd -f
+root       1892   1      1892   0    1      0.0     0.0     232564   ?        ?        Ss       Feb13  0:00         00:00:00 /usr/sbin/crond /usr/sbin/crond -n
+root       1893   1      1893   0    5      0.0     0.0     609244   ?        ?        Ssl      Feb13  0:02         00:00:00 /usr/bin/gdm /usr/bin/gdm
+root       1893   1      1898   0    5      0.0     0.0     609244   ?        ?        Ssl      Feb13  0:02         00:00:00 /usr/bin/gdm /usr/bin/gdm
+root       1893   1      1899   0    5      0.0     0.0     609244   ?        ?        Ssl      Feb13  0:02         00:00:00 /usr/bin/gdm /usr/bin/gdm
+root       1893   1      1900   0    5      0.0     0.0     609244   ?        ?        Ssl      Feb13  0:02         00:00:00 /usr/bin/gdm /usr/bin/gdm
+root       1893   1      1901   0    5      0.0     0.0     609244   ?        ?        Ssl      Feb13  0:02         00:00:02 /usr/bin/gdm /usr/bin/gdm
+postgres   1895   1      1895   0    1      0.0     0.0     441224   ?        ?        Ss       Feb13  0:01         00:00:01 /usr/pgsql-15/bin/po-D /usr/pgsql-15/bin/postmaster -D /var/lib/pgsql/15/data/
+postgres   1934   1895   1934   0    1      0.0     0.0     295176   ?        ?        Ss       Feb13  0:00         00:00:00 postgres:    postgres: logger 
+postgres   1936   1895   1936   0    1      0.0     0.0     441372   ?        ?        Ss       Feb13  0:00         00:00:00 postgres:    postgres: checkpointer 
+postgres   1937   1895   1937   0    1      0.0     0.0     441356   ?        ?        Ss       Feb13  0:00         00:00:00 postgres:    postgres: background writer 
+postgres   1943   1895   1943   0    1      0.0     0.0     441356   ?        ?        Ss       Feb13  0:00         00:00:00 postgres:    postgres: walwriter 
+postgres   1944   1895   1944   0    1      0.0     0.0     442844   ?        ?        Ss       Feb13  0:00         00:00:00 postgres:    postgres: autovacuum launcher 
+postgres   1945   1895   1945   0    1      0.0     0.0     442824   ?        ?        Ss       Feb13  0:00         00:00:00 postgres:    postgres: logical replication launcher 
+root       1962   1      1962   0    4      0.0     0.0     306176   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/uresourced /usr/libexec/uresourced
+root       1962   1      2010   0    4      0.0     0.0     306176   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/uresourced /usr/libexec/uresourced
+root       1962   1      2011   0    4      0.0     0.0     306176   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/uresourced /usr/libexec/uresourced
+root       1962   1      2013   0    4      0.0     0.0     306176   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/uresourced /usr/libexec/uresourced
+root       2365   2      2365   0    1      0.0     0.0     0        ?        ?        S<       Feb13  0:00         00:00:00 [krfcommd]   [krfcommd]
+root       2580   1      2580   0    17     0.0     0.0     1272776  ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/bin/pcscd /usr/bin/pcscd --foreground --auto-exit
+root       2580   1      2619   0    17     0.0     0.0     1272776  ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/bin/pcscd /usr/bin/pcscd --foreground --auto-exit
+root       2580   1      2621   0    17     0.0     0.0     1272776  ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/bin/pcscd /usr/bin/pcscd --foreground --auto-exit
+root       2580   1      2623   0    17     0.0     0.0     1272776  ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/bin/pcscd /usr/bin/pcscd --foreground --auto-exit
+root       2580   1      2624   0    17     0.0     0.0     1272776  ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/bin/pcscd /usr/bin/pcscd --foreground --auto-exit
+root       2580   1      2625   0    17     0.0     0.0     1272776  ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/bin/pcscd /usr/bin/pcscd --foreground --auto-exit
+root       2580   1      4959   0    17     0.0     0.0     1272776  ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/bin/pcscd /usr/bin/pcscd --foreground --auto-exit
+root       2580   1      5237   0    17     0.0     0.0     1272776  ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/bin/pcscd /usr/bin/pcscd --foreground --auto-exit
+root       2580   1      5342   0    17     0.0     0.0     1272776  ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/bin/pcscd /usr/bin/pcscd --foreground --auto-exit
+root       2580   1      10971  0    17     0.0     0.0     1272776  ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/bin/pcscd /usr/bin/pcscd --foreground --auto-exit
+root       2580   1      11028  0    17     0.0     0.0     1272776  ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/bin/pcscd /usr/bin/pcscd --foreground --auto-exit
+root       2580   1      64449  0    17     0.0     0.0     1272776  ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/bin/pcscd /usr/bin/pcscd --foreground --auto-exit
+root       2580   1      285692 0    17     0.0     0.0     1272776  ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/bin/pcscd /usr/bin/pcscd --foreground --auto-exit
+root       2580   1      313206 0    17     0.0     0.0     1272776  ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/bin/pcscd /usr/bin/pcscd --foreground --auto-exit
+root       2580   1      317366 0    17     0.0     0.0     1272776  ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/bin/pcscd /usr/bin/pcscd --foreground --auto-exit
+root       2580   1      325301 0    17     0.0     0.0     1272776  ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/bin/pcscd /usr/bin/pcscd --foreground --auto-exit
+root       2580   1      329938 0    17     0.0     0.0     1272776  ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/bin/pcscd /usr/bin/pcscd --foreground --auto-exit
+geoclue    2637   1      2637   0    4      0.0     0.1     2306656  ?        ?        Ssl      Feb13  0:09         00:00:05 /usr/libexec/geoclue /usr/libexec/geoclue
+geoclue    2637   1      2664   0    4      0.0     0.1     2306656  ?        ?        Ssl      Feb13  0:09         00:00:00 /usr/libexec/geoclue /usr/libexec/geoclue
+geoclue    2637   1      2665   0    4      0.0     0.1     2306656  ?        ?        Ssl      Feb13  0:09         00:00:00 /usr/libexec/geoclue /usr/libexec/geoclue
+geoclue    2637   1      2667   0    4      0.0     0.1     2306656  ?        ?        Ssl      Feb13  0:09         00:00:02 /usr/libexec/geoclue /usr/libexec/geoclue
+root       3768   2      3768   0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [UVM         [UVM global queue]
+root       3769   2      3769   0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [UVM         [UVM deferred release queue]
+root       3770   2      3770   0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [UVM         [UVM Tools Event Queue]
+root       3966   1893   3966   0    4      0.0     0.0     618716   ?        ?        Sl       Feb13  0:00         00:00:00 gdm-session-worker gdm-session-worker [pam/gdm-password]
+root       3966   1893   3967   0    4      0.0     0.0     618716   ?        ?        Sl       Feb13  0:00         00:00:00 gdm-session-worker gdm-session-worker [pam/gdm-password]
+root       3966   1893   3968   0    4      0.0     0.0     618716   ?        ?        Sl       Feb13  0:00         00:00:00 gdm-session-worker gdm-session-worker [pam/gdm-password]
+root       3966   1893   3969   0    4      0.0     0.0     618716   ?        ?        Sl       Feb13  0:00         00:00:00 gdm-session-worker gdm-session-worker [pam/gdm-password]
+yuvlux     4170   1      4170   0    1      0.0     0.0     25456    ?        ?        Ss       Feb13  0:30         00:00:30 /usr/lib/systemd/sys--user /usr/lib/systemd/systemd --user
+yuvlux     4173   4170   4173   0    1      0.0     0.0     16776    ?        ?        S        Feb13  0:00         00:00:00 (sd-pam)     (sd-pam)
+yuvlux     4182   4170   4182   0    5      0.0     0.0     382152   ?        ?        Ssl      Feb13  0:07         00:00:05 /usr/libexec/uresour--user /usr/libexec/uresourced --user
+yuvlux     4182   4170   4186   0    5      0.0     0.0     382152   ?        ?        Ssl      Feb13  0:07         00:00:00 /usr/libexec/uresour--user /usr/libexec/uresourced --user
+yuvlux     4182   4170   4187   0    5      0.0     0.0     382152   ?        ?        Ssl      Feb13  0:07         00:00:00 /usr/libexec/uresour--user /usr/libexec/uresourced --user
+yuvlux     4182   4170   4261   0    5      0.0     0.0     382152   ?        ?        Ssl      Feb13  0:07         00:00:02 /usr/libexec/uresour--user /usr/libexec/uresourced --user
+yuvlux     4182   4170   4357   0    5      0.0     0.0     382152   ?        ?        Ssl      Feb13  0:07         00:00:00 /usr/libexec/uresour--user /usr/libexec/uresourced --user
+yuvlux     4184   4170   4184   0    25     0.0     0.0     1644652  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/warp-desktop-svc /usr/bin/warp-desktop-svc
+yuvlux     4184   4170   4192   0    25     0.0     0.0     1644652  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/warp-desktop-svc /usr/bin/warp-desktop-svc
+yuvlux     4184   4170   4194   0    25     0.0     0.0     1644652  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/warp-desktop-svc /usr/bin/warp-desktop-svc
+yuvlux     4184   4170   4195   0    25     0.0     0.0     1644652  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/warp-desktop-svc /usr/bin/warp-desktop-svc
+yuvlux     4184   4170   4197   0    25     0.0     0.0     1644652  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/warp-desktop-svc /usr/bin/warp-desktop-svc
+yuvlux     4184   4170   4198   0    25     0.0     0.0     1644652  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/warp-desktop-svc /usr/bin/warp-desktop-svc
+yuvlux     4184   4170   4199   0    25     0.0     0.0     1644652  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/warp-desktop-svc /usr/bin/warp-desktop-svc
+yuvlux     4184   4170   4200   0    25     0.0     0.0     1644652  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/warp-desktop-svc /usr/bin/warp-desktop-svc
+yuvlux     4184   4170   4201   0    25     0.0     0.0     1644652  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/warp-desktop-svc /usr/bin/warp-desktop-svc
+yuvlux     4184   4170   4202   0    25     0.0     0.0     1644652  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/warp-desktop-svc /usr/bin/warp-desktop-svc
+yuvlux     4184   4170   4203   0    25     0.0     0.0     1644652  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/warp-desktop-svc /usr/bin/warp-desktop-svc
+yuvlux     4184   4170   4204   0    25     0.0     0.0     1644652  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/warp-desktop-svc /usr/bin/warp-desktop-svc
+yuvlux     4184   4170   4205   0    25     0.0     0.0     1644652  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/warp-desktop-svc /usr/bin/warp-desktop-svc
+yuvlux     4184   4170   4206   0    25     0.0     0.0     1644652  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/warp-desktop-svc /usr/bin/warp-desktop-svc
+yuvlux     4184   4170   4207   0    25     0.0     0.0     1644652  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/warp-desktop-svc /usr/bin/warp-desktop-svc
+yuvlux     4184   4170   4208   0    25     0.0     0.0     1644652  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/warp-desktop-svc /usr/bin/warp-desktop-svc
+yuvlux     4184   4170   4209   0    25     0.0     0.0     1644652  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/warp-desktop-svc /usr/bin/warp-desktop-svc
+yuvlux     4184   4170   4210   0    25     0.0     0.0     1644652  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/warp-desktop-svc /usr/bin/warp-desktop-svc
+yuvlux     4184   4170   4211   0    25     0.0     0.0     1644652  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/warp-desktop-svc /usr/bin/warp-desktop-svc
+yuvlux     4184   4170   4212   0    25     0.0     0.0     1644652  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/warp-desktop-svc /usr/bin/warp-desktop-svc
+yuvlux     4184   4170   4213   0    25     0.0     0.0     1644652  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/warp-desktop-svc /usr/bin/warp-desktop-svc
+yuvlux     4184   4170   4214   0    25     0.0     0.0     1644652  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/warp-desktop-svc /usr/bin/warp-desktop-svc
+yuvlux     4184   4170   4215   0    25     0.0     0.0     1644652  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/warp-desktop-svc /usr/bin/warp-desktop-svc
+yuvlux     4184   4170   4216   0    25     0.0     0.0     1644652  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/warp-desktop-svc /usr/bin/warp-desktop-svc
+yuvlux     4184   4170   4217   0    25     0.0     0.0     1644652  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/warp-desktop-svc /usr/bin/warp-desktop-svc
+yuvlux     4189   1      4189   0    5      0.0     0.0     407336   ?        ?        Sl       Feb13  0:00         00:00:00 /usr/bin/gnome-keyri--daemonize /usr/bin/gnome-keyring-daemon --daemonize --login
+yuvlux     4189   1      4190   0    5      0.0     0.0     407336   ?        ?        Sl       Feb13  0:00         00:00:00 /usr/bin/gnome-keyri--daemonize /usr/bin/gnome-keyring-daemon --daemonize --login
+yuvlux     4189   1      4191   0    5      0.0     0.0     407336   ?        ?        Sl       Feb13  0:00         00:00:00 /usr/bin/gnome-keyri--daemonize /usr/bin/gnome-keyring-daemon --daemonize --login
+yuvlux     4189   1      4193   0    5      0.0     0.0     407336   ?        ?        Sl       Feb13  0:00         00:00:00 /usr/bin/gnome-keyri--daemonize /usr/bin/gnome-keyring-daemon --daemonize --login
+yuvlux     4189   1      6549   0    5      0.0     0.0     407336   ?        ?        Sl       Feb13  0:00         00:00:00 /usr/bin/gnome-keyri--daemonize /usr/bin/gnome-keyring-daemon --daemonize --login
+yuvlux     4196   4170   4196   0    1      0.0     0.0     9184     ?        ?        Ss       Feb13  0:00         00:00:00 /usr/bin/dbus-broker--scope /usr/bin/dbus-broker-launch --scope user
+yuvlux     4218   4196   4218   0    1      0.0     0.0     9100     ?        ?        S        Feb13  0:18         00:00:18 dbus-broker  dbus-broker --log 10 --controller 9 --machine-id 13facde82a574414b20cddf3a34e86e2 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+yuvlux     4306   4170   4306   0    4      0.0     0.0     540116   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/gvfsd /usr/libexec/gvfsd
+yuvlux     4306   4170   4349   0    4      0.0     0.0     540116   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/gvfsd /usr/libexec/gvfsd
+yuvlux     4306   4170   4350   0    4      0.0     0.0     540116   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/gvfsd /usr/libexec/gvfsd
+yuvlux     4306   4170   4351   0    4      0.0     0.0     540116   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/gvfsd /usr/libexec/gvfsd
+yuvlux     4354   4170   4354   0    7      0.0     0.0     613632   ?        ?        Sl       Feb13  0:00         00:00:00 /usr/libexec/gvfsd-f/run/user/1000/gvfs /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+yuvlux     4354   4170   4358   0    7      0.0     0.0     613632   ?        ?        Sl       Feb13  0:00         00:00:00 /usr/libexec/gvfsd-f/run/user/1000/gvfs /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+yuvlux     4354   4170   4359   0    7      0.0     0.0     613632   ?        ?        Sl       Feb13  0:00         00:00:00 /usr/libexec/gvfsd-f/run/user/1000/gvfs /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+yuvlux     4354   4170   4360   0    7      0.0     0.0     613632   ?        ?        Sl       Feb13  0:00         00:00:00 /usr/libexec/gvfsd-f/run/user/1000/gvfs /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+yuvlux     4354   4170   4361   0    7      0.0     0.0     613632   ?        ?        Sl       Feb13  0:00         00:00:00 /usr/libexec/gvfsd-f/run/user/1000/gvfs /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+yuvlux     4354   4170   4363   0    7      0.0     0.0     613632   ?        ?        Sl       Feb13  0:00         00:00:00 /usr/libexec/gvfsd-f/run/user/1000/gvfs /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+yuvlux     4354   4170   4365   0    7      0.0     0.0     613632   ?        ?        Sl       Feb13  0:00         00:00:00 /usr/libexec/gvfsd-f/run/user/1000/gvfs /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+yuvlux     4362   4170   4362   0    3      0.1     0.0     398420   ?        ?        S<sl     Feb13  3:36         00:00:08 /usr/bin/pipewire /usr/bin/pipewire
+yuvlux     4362   4170   4369   0    3      0.1     0.0     398420   ?        ?        S<sl     Feb13  3:36         00:00:00 /usr/bin/pipewire /usr/bin/pipewire
+yuvlux     4362   4170   4371   0    3      0.1     0.0     398420   ?        ?        S<sl     Feb13  3:36         00:03:27 /usr/bin/pipewire /usr/bin/pipewire
+yuvlux     4366   4170   4366   0    9      0.0     0.1     1009860  ?        ?        S<sl     Feb13  0:26         00:00:26 /usr/bin/wireplumber /usr/bin/wireplumber
+yuvlux     4366   4170   4370   0    9      0.0     0.1     1009860  ?        ?        S<sl     Feb13  0:26         00:00:00 /usr/bin/wireplumber /usr/bin/wireplumber
+yuvlux     4366   4170   4372   0    9      0.0     0.1     1009860  ?        ?        S<sl     Feb13  0:26         00:00:00 /usr/bin/wireplumber /usr/bin/wireplumber
+yuvlux     4366   4170   4373   0    9      0.0     0.1     1009860  ?        ?        S<sl     Feb13  0:26         00:00:00 /usr/bin/wireplumber /usr/bin/wireplumber
+yuvlux     4366   4170   4379   0    9      0.0     0.1     1009860  ?        ?        S<sl     Feb13  0:26         00:00:00 /usr/bin/wireplumber /usr/bin/wireplumber
+yuvlux     4366   4170   4380   0    9      0.0     0.1     1009860  ?        ?        S<sl     Feb13  0:26         00:00:00 /usr/bin/wireplumber /usr/bin/wireplumber
+yuvlux     4366   4170   4391   0    9      0.0     0.1     1009860  ?        ?        S<sl     Feb13  0:26         00:00:00 /usr/bin/wireplumber /usr/bin/wireplumber
+yuvlux     4366   4170   4392   0    9      0.0     0.1     1009860  ?        ?        S<sl     Feb13  0:26         00:00:00 /usr/bin/wireplumber /usr/bin/wireplumber
+yuvlux     4366   4170   4393   0    9      0.0     0.1     1009860  ?        ?        S<sl     Feb13  0:26         00:00:00 /usr/bin/wireplumber /usr/bin/wireplumber
+yuvlux     4433   3966   4433   0    4      0.0     0.0     391676   tty2     tty2     Ssl+     Feb13  0:00         00:00:00 /usr/libexec/gdm-way/usr/bin/gnome-session /usr/libexec/gdm-wayland-session /usr/bin/gnome-session
+yuvlux     4433   3966   4443   0    4      0.0     0.0     391676   tty2     tty2     Ssl+     Feb13  0:00         00:00:00 /usr/libexec/gdm-way/usr/bin/gnome-session /usr/libexec/gdm-wayland-session /usr/bin/gnome-session
+yuvlux     4433   3966   4444   0    4      0.0     0.0     391676   tty2     tty2     Ssl+     Feb13  0:00         00:00:00 /usr/libexec/gdm-way/usr/bin/gnome-session /usr/libexec/gdm-wayland-session /usr/bin/gnome-session
+yuvlux     4433   3966   4445   0    4      0.0     0.0     391676   tty2     tty2     Ssl+     Feb13  0:00         00:00:00 /usr/libexec/gdm-way/usr/bin/gnome-session /usr/libexec/gdm-wayland-session /usr/bin/gnome-session
+yuvlux     4446   4433   4446   0    4      0.0     0.0     163832   tty2     tty2     Sl+      Feb13  0:00         00:00:00 /usr/libexec/gnome-sgnome /usr/libexec/gnome-session-init-worker gnome
+yuvlux     4446   4433   4550   0    4      0.0     0.0     163832   tty2     tty2     Sl+      Feb13  0:00         00:00:00 /usr/libexec/gnome-sgnome /usr/libexec/gnome-session-init-worker gnome
+yuvlux     4446   4433   4551   0    4      0.0     0.0     163832   tty2     tty2     Sl+      Feb13  0:00         00:00:00 /usr/libexec/gnome-sgnome /usr/libexec/gnome-session-init-worker gnome
+yuvlux     4446   4433   4552   0    4      0.0     0.0     163832   tty2     tty2     Sl+      Feb13  0:00         00:00:00 /usr/libexec/gnome-sgnome /usr/libexec/gnome-session-init-worker gnome
+yuvlux     4562   4170   4562   0    2      0.0     0.0     311804   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/gnome-s--monitor /usr/libexec/gnome-session-ctl --monitor
+yuvlux     4562   4170   4566   0    2      0.0     0.0     311804   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/gnome-s--monitor /usr/libexec/gnome-session-ctl --monitor
+yuvlux     4569   4170   4569   0    5      0.0     0.0     765580   ?        ?        Ssl      Feb13  0:04         00:00:01 /usr/libexec/gnome-s--session=gnome /usr/libexec/gnome-session-service --session=gnome
+yuvlux     4569   4170   4571   0    5      0.0     0.0     765580   ?        ?        Ssl      Feb13  0:04         00:00:00 /usr/libexec/gnome-s--session=gnome /usr/libexec/gnome-session-service --session=gnome
+yuvlux     4569   4170   4572   0    5      0.0     0.0     765580   ?        ?        Ssl      Feb13  0:04         00:00:00 /usr/libexec/gnome-s--session=gnome /usr/libexec/gnome-session-service --session=gnome
+yuvlux     4569   4170   4573   0    5      0.0     0.0     765580   ?        ?        Ssl      Feb13  0:04         00:00:02 /usr/libexec/gnome-s--session=gnome /usr/libexec/gnome-session-service --session=gnome
+yuvlux     4569   4170   4576   0    5      0.0     0.0     765580   ?        ?        Ssl      Feb13  0:04         00:00:00 /usr/libexec/gnome-s--session=gnome /usr/libexec/gnome-session-service --session=gnome
+yuvlux     4577   4170   4577   3    27     3.9     2.1     13928884 ?        ?        Ssl      Feb13  111:29       01:31:46 /usr/bin/gnome-shell /usr/bin/gnome-shell
+yuvlux     4577   4170   4584   0    27     3.9     2.1     13928884 ?        ?        Ssl      Feb13  111:29       00:00:00 /usr/bin/gnome-shell /usr/bin/gnome-shell
+yuvlux     4577   4170   4585   0    27     3.9     2.1     13928884 ?        ?        Ssl      Feb13  111:29       00:00:01 /usr/bin/gnome-shell /usr/bin/gnome-shell
+yuvlux     4577   4170   4587   0    27     3.9     2.1     13928884 ?        ?        Ssl      Feb13  111:29       00:00:51 /usr/bin/gnome-shell /usr/bin/gnome-shell
+yuvlux     4577   4170   4590   0    27     3.9     2.1     13928884 ?        ?        Ssl      Feb13  111:29       00:00:00 /usr/bin/gnome-shell /usr/bin/gnome-shell
+yuvlux     4577   4170   4591   0    27     3.9     2.1     13928884 ?        ?        Ssl      Feb13  111:29       00:00:17 /usr/bin/gnome-shell /usr/bin/gnome-shell
+yuvlux     4577   4170   4592   0    27     3.9     2.1     13928884 ?        ?        Ssl      Feb13  111:29       00:00:04 /usr/bin/gnome-shell /usr/bin/gnome-shell
+yuvlux     4577   4170   4593   0    27     3.9     2.1     13928884 ?        ?        Ssl      Feb13  111:29       00:00:01 /usr/bin/gnome-shell /usr/bin/gnome-shell
+yuvlux     4577   4170   4594   0    27     3.9     2.1     13928884 ?        ?        Ssl      Feb13  111:29       00:00:01 /usr/bin/gnome-shell /usr/bin/gnome-shell
+yuvlux     4577   4170   4595   0    27     3.9     2.1     13928884 ?        ?        Ssl      Feb13  111:29       00:00:00 /usr/bin/gnome-shell /usr/bin/gnome-shell
+yuvlux     4577   4170   4596   0    27     3.9     2.1     13928884 ?        ?        Ssl      Feb13  111:29       00:00:00 /usr/bin/gnome-shell /usr/bin/gnome-shell
+yuvlux     4577   4170   4597   0    27     3.9     2.1     13928884 ?        ?        Ssl      Feb13  111:29       00:00:00 /usr/bin/gnome-shell /usr/bin/gnome-shell
+yuvlux     4577   4170   4598   0    27     3.9     2.1     13928884 ?        ?        Ssl      Feb13  111:29       00:00:00 /usr/bin/gnome-shell /usr/bin/gnome-shell
+yuvlux     4577   4170   4601   0    27     3.9     2.1     13928884 ?        ?        Ssl      Feb13  111:29       00:14:24 /usr/bin/gnome-shell /usr/bin/gnome-shell
+yuvlux     4577   4170   4639   0    27     3.9     2.1     13928884 ?        ?        Ssl      Feb13  111:29       00:00:00 /usr/bin/gnome-shell /usr/bin/gnome-shell
+yuvlux     4577   4170   4640   0    27     3.9     2.1     13928884 ?        ?        Ssl      Feb13  111:29       00:00:00 /usr/bin/gnome-shell /usr/bin/gnome-shell
+yuvlux     4577   4170   4644   0    27     3.9     2.1     13928884 ?        ?        Ssl      Feb13  111:29       00:00:00 /usr/bin/gnome-shell /usr/bin/gnome-shell
+yuvlux     4577   4170   4645   0    27     3.9     2.1     13928884 ?        ?        Ssl      Feb13  111:29       00:00:00 /usr/bin/gnome-shell /usr/bin/gnome-shell
+yuvlux     4577   4170   4646   0    27     3.9     2.1     13928884 ?        ?        Ssl      Feb13  111:29       00:00:00 /usr/bin/gnome-shell /usr/bin/gnome-shell
+yuvlux     4577   4170   4647   0    27     3.9     2.1     13928884 ?        ?        Ssl      Feb13  111:29       00:00:11 /usr/bin/gnome-shell /usr/bin/gnome-shell
+yuvlux     4577   4170   4648   0    27     3.9     2.1     13928884 ?        ?        Ssl      Feb13  111:29       00:01:35 /usr/bin/gnome-shell /usr/bin/gnome-shell
+yuvlux     4577   4170   4783   0    27     3.9     2.1     13928884 ?        ?        Ssl      Feb13  111:29       00:00:02 /usr/bin/gnome-shell /usr/bin/gnome-shell
+yuvlux     4577   4170   4784   0    27     3.9     2.1     13928884 ?        ?        Ssl      Feb13  111:29       00:00:00 /usr/bin/gnome-shell /usr/bin/gnome-shell
+yuvlux     4577   4170   5341   0    27     3.9     2.1     13928884 ?        ?        Ssl      Feb13  111:29       00:00:00 /usr/bin/gnome-shell /usr/bin/gnome-shell
+yuvlux     4577   4170   5357   0    27     3.9     2.1     13928884 ?        ?        Ssl      Feb13  111:29       00:00:00 /usr/bin/gnome-shell /usr/bin/gnome-shell
+yuvlux     4577   4170   8023   0    27     3.9     2.1     13928884 ?        ?        Ssl      Feb13  111:29       00:00:00 /usr/bin/gnome-shell /usr/bin/gnome-shell
+yuvlux     4577   4170   29542  0    27     3.9     2.1     13928884 ?        ?        Ssl      Feb13  111:29       00:00:00 /usr/bin/gnome-shell /usr/bin/gnome-shell
+root       4638   2      4638   0    1      0.0     0.0     0        ?        ?        S        Feb13  0:00         00:00:00 [nvidia-drm/timeline-25] [nvidia-drm/timeline-25]
+yuvlux     4662   4170   4662   0    5      0.0     0.0     380964   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/at-spi-bus-launcher /usr/libexec/at-spi-bus-launcher
+yuvlux     4662   4170   4663   0    5      0.0     0.0     380964   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/at-spi-bus-launcher /usr/libexec/at-spi-bus-launcher
+yuvlux     4662   4170   4664   0    5      0.0     0.0     380964   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/at-spi-bus-launcher /usr/libexec/at-spi-bus-launcher
+yuvlux     4662   4170   4665   0    5      0.0     0.0     380964   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/at-spi-bus-launcher /usr/libexec/at-spi-bus-launcher
+yuvlux     4662   4170   4667   0    5      0.0     0.0     380964   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/at-spi-bus-launcher /usr/libexec/at-spi-bus-launcher
+yuvlux     4668   4662   4668   0    1      0.0     0.0     8972     ?        ?        S        Feb13  0:00         00:00:00 /usr/bin/dbus-broker--config-file=/usr/s--scope /usr/bin/dbus-broker-launch --config-file=/usr/share/defaults/at-spi2/accessibility.conf --scope user
+yuvlux     4669   4668   4669   0    1      0.0     0.0     5220     ?        ?        S        Feb13  0:00         00:00:00 dbus-broker  dbus-broker --log 10 --controller 9 --machine-id 13facde82a574414b20cddf3a34e86e2 --max-bytes 100000000000000 --max-fds 6400000 --max-matches 5000000000
+yuvlux     4670   4170   4670   0    4      0.0     0.0     168428   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/at-spi2--use-gnome-session /usr/libexec/at-spi2-registryd --use-gnome-session
+yuvlux     4670   4170   4671   0    4      0.0     0.0     168428   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/at-spi2--use-gnome-session /usr/libexec/at-spi2-registryd --use-gnome-session
+yuvlux     4670   4170   4672   0    4      0.0     0.0     168428   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/at-spi2--use-gnome-session /usr/libexec/at-spi2-registryd --use-gnome-session
+yuvlux     4670   4170   4673   0    4      0.0     0.0     168428   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/at-spi2--use-gnome-session /usr/libexec/at-spi2-registryd --use-gnome-session
+yuvlux     4675   4170   4675   0    4      0.0     0.0     530852   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/xdg-permission-store /usr/libexec/xdg-permission-store
+yuvlux     4675   4170   4676   0    4      0.0     0.0     530852   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/xdg-permission-store /usr/libexec/xdg-permission-store
+yuvlux     4675   4170   4677   0    4      0.0     0.0     530852   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/xdg-permission-store /usr/libexec/xdg-permission-store
+yuvlux     4675   4170   4679   0    4      0.0     0.0     530852   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/xdg-permission-store /usr/libexec/xdg-permission-store
+yuvlux     4693   4170   4693   0    7      0.0     0.0     667608   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/gnome-shell-calendar-server /usr/libexec/gnome-shell-calendar-server
+yuvlux     4693   4170   4699   0    7      0.0     0.0     667608   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/gnome-shell-calendar-server /usr/libexec/gnome-shell-calendar-server
+yuvlux     4693   4170   4700   0    7      0.0     0.0     667608   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/gnome-shell-calendar-server /usr/libexec/gnome-shell-calendar-server
+yuvlux     4693   4170   4702   0    7      0.0     0.0     667608   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/gnome-shell-calendar-server /usr/libexec/gnome-shell-calendar-server
+yuvlux     4693   4170   4703   0    7      0.0     0.0     667608   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/gnome-shell-calendar-server /usr/libexec/gnome-shell-calendar-server
+yuvlux     4693   4170   4704   0    7      0.0     0.0     667608   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/gnome-shell-calendar-server /usr/libexec/gnome-shell-calendar-server
+yuvlux     4693   4170   5041   0    7      0.0     0.0     667608   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/gnome-shell-calendar-server /usr/libexec/gnome-shell-calendar-server
+yuvlux     4694   4170   4694   0    4      0.0     0.0     165168   ?        ?        Ssl      Feb13  0:03         00:00:02 /usr/libexec/dconf-service /usr/libexec/dconf-service
+yuvlux     4694   4170   4696   0    4      0.0     0.0     165168   ?        ?        Ssl      Feb13  0:03         00:00:00 /usr/libexec/dconf-service /usr/libexec/dconf-service
+yuvlux     4694   4170   4697   0    4      0.0     0.0     165168   ?        ?        Ssl      Feb13  0:03         00:00:00 /usr/libexec/dconf-service /usr/libexec/dconf-service
+yuvlux     4694   4170   4698   0    4      0.0     0.0     165168   ?        ?        Ssl      Feb13  0:03         00:00:00 /usr/libexec/dconf-service /usr/libexec/dconf-service
+yuvlux     4707   4170   4707   0    5      0.0     0.1     1715536  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/evolution-source-registry /usr/libexec/evolution-source-registry
+yuvlux     4707   4170   4726   0    5      0.0     0.1     1715536  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/evolution-source-registry /usr/libexec/evolution-source-registry
+yuvlux     4707   4170   4727   0    5      0.0     0.1     1715536  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/evolution-source-registry /usr/libexec/evolution-source-registry
+yuvlux     4707   4170   4728   0    5      0.0     0.1     1715536  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/evolution-source-registry /usr/libexec/evolution-source-registry
+yuvlux     4707   4170   4748   0    5      0.0     0.1     1715536  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/evolution-source-registry /usr/libexec/evolution-source-registry
+yuvlux     4715   4170   4715   0    12     0.0     0.1     2983168  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/gjs /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+yuvlux     4715   4170   4745   0    12     0.0     0.1     2983168  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/gjs /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+yuvlux     4715   4170   4747   0    12     0.0     0.1     2983168  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/gjs /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+yuvlux     4715   4170   4749   0    12     0.0     0.1     2983168  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/gjs /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+yuvlux     4715   4170   4750   0    12     0.0     0.1     2983168  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/gjs /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+yuvlux     4715   4170   4751   0    12     0.0     0.1     2983168  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/gjs /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+yuvlux     4715   4170   4752   0    12     0.0     0.1     2983168  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/gjs /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+yuvlux     4715   4170   4753   0    12     0.0     0.1     2983168  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/gjs /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+yuvlux     4715   4170   4754   0    12     0.0     0.1     2983168  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/gjs /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+yuvlux     4715   4170   4755   0    12     0.0     0.1     2983168  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/gjs /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+yuvlux     4715   4170   4756   0    12     0.0     0.1     2983168  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/gjs /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+yuvlux     4715   4170   4757   0    12     0.0     0.1     2983168  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/gjs /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+yuvlux     4785   4170   4785   0    4      0.0     0.0     612320   ?        ?        Ssl      Feb13  1:40         00:00:37 /usr/bin/ibus-daemon--panel /usr/bin/ibus-daemon --panel disable
+yuvlux     4785   4170   4960   0    4      0.0     0.0     612320   ?        ?        Ssl      Feb13  1:40         00:00:00 /usr/bin/ibus-daemon--panel /usr/bin/ibus-daemon --panel disable
+yuvlux     4785   4170   4961   0    4      0.0     0.0     612320   ?        ?        Ssl      Feb13  1:40         00:00:01 /usr/bin/ibus-daemon--panel /usr/bin/ibus-daemon --panel disable
+yuvlux     4785   4170   4963   0    4      0.0     0.0     612320   ?        ?        Ssl      Feb13  1:40         00:01:01 /usr/bin/ibus-daemon--panel /usr/bin/ibus-daemon --panel disable
+yuvlux     4795   4170   4795   0    5      0.0     0.0     478700   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-a11y-settings /usr/libexec/gsd-a11y-settings
+yuvlux     4795   4170   4835   0    5      0.0     0.0     478700   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-a11y-settings /usr/libexec/gsd-a11y-settings
+yuvlux     4795   4170   4836   0    5      0.0     0.0     478700   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-a11y-settings /usr/libexec/gsd-a11y-settings
+yuvlux     4795   4170   4838   0    5      0.0     0.0     478700   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-a11y-settings /usr/libexec/gsd-a11y-settings
+yuvlux     4795   4170   4938   0    5      0.0     0.0     478700   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-a11y-settings /usr/libexec/gsd-a11y-settings
+yuvlux     4813   4170   4813   0    5      0.0     0.0     617180   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-color /usr/libexec/gsd-color
+yuvlux     4813   4170   4845   0    5      0.0     0.0     617180   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-color /usr/libexec/gsd-color
+yuvlux     4813   4170   4846   0    5      0.0     0.0     617180   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-color /usr/libexec/gsd-color
+yuvlux     4813   4170   4847   0    5      0.0     0.0     617180   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-color /usr/libexec/gsd-color
+yuvlux     4813   4170   4852   0    5      0.0     0.0     617180   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-color /usr/libexec/gsd-color
+yuvlux     4816   4170   4816   0    5      0.0     0.0     490264   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-datetime /usr/libexec/gsd-datetime
+yuvlux     4816   4170   4858   0    5      0.0     0.0     490264   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-datetime /usr/libexec/gsd-datetime
+yuvlux     4816   4170   4862   0    5      0.0     0.0     490264   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-datetime /usr/libexec/gsd-datetime
+yuvlux     4816   4170   4866   0    5      0.0     0.0     490264   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-datetime /usr/libexec/gsd-datetime
+yuvlux     4816   4170   4931   0    5      0.0     0.0     490264   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-datetime /usr/libexec/gsd-datetime
+yuvlux     4820   4170   4820   0    5      0.0     0.0     617072   ?        ?        Ssl      Feb13  0:04         00:00:03 /usr/libexec/gsd-housekeeping /usr/libexec/gsd-housekeeping
+yuvlux     4820   4170   4863   0    5      0.0     0.0     617072   ?        ?        Ssl      Feb13  0:04         00:00:00 /usr/libexec/gsd-housekeeping /usr/libexec/gsd-housekeeping
+yuvlux     4820   4170   4864   0    5      0.0     0.0     617072   ?        ?        Ssl      Feb13  0:04         00:00:00 /usr/libexec/gsd-housekeeping /usr/libexec/gsd-housekeeping
+yuvlux     4820   4170   4868   0    5      0.0     0.0     617072   ?        ?        Ssl      Feb13  0:04         00:00:00 /usr/libexec/gsd-housekeeping /usr/libexec/gsd-housekeeping
+yuvlux     4820   4170   4933   0    5      0.0     0.0     617072   ?        ?        Ssl      Feb13  0:04         00:00:00 /usr/libexec/gsd-housekeeping /usr/libexec/gsd-housekeeping
+yuvlux     4825   4170   4825   0    5      0.0     0.0     606616   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-keyboard /usr/libexec/gsd-keyboard
+yuvlux     4825   4170   4849   0    5      0.0     0.0     606616   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-keyboard /usr/libexec/gsd-keyboard
+yuvlux     4825   4170   4850   0    5      0.0     0.0     606616   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-keyboard /usr/libexec/gsd-keyboard
+yuvlux     4825   4170   4851   0    5      0.0     0.0     606616   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-keyboard /usr/libexec/gsd-keyboard
+yuvlux     4825   4170   4854   0    5      0.0     0.0     606616   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-keyboard /usr/libexec/gsd-keyboard
+yuvlux     4833   4170   4833   0    6      0.0     0.0     902856   ?        ?        Ssl      Feb13  0:05         00:00:03 /usr/libexec/gsd-media-keys /usr/libexec/gsd-media-keys
+yuvlux     4833   4170   4884   0    6      0.0     0.0     902856   ?        ?        Ssl      Feb13  0:05         00:00:00 /usr/libexec/gsd-media-keys /usr/libexec/gsd-media-keys
+yuvlux     4833   4170   4885   0    6      0.0     0.0     902856   ?        ?        Ssl      Feb13  0:05         00:00:00 /usr/libexec/gsd-media-keys /usr/libexec/gsd-media-keys
+yuvlux     4833   4170   4886   0    6      0.0     0.0     902856   ?        ?        Ssl      Feb13  0:05         00:00:02 /usr/libexec/gsd-media-keys /usr/libexec/gsd-media-keys
+yuvlux     4833   4170   4966   0    6      0.0     0.0     902856   ?        ?        Ssl      Feb13  0:05         00:00:00 /usr/libexec/gsd-media-keys /usr/libexec/gsd-media-keys
+yuvlux     4833   4170   72739  0    6      0.0     0.0     902856   ?        ?        Ssl      Feb13  0:05         00:00:00 /usr/libexec/gsd-media-keys /usr/libexec/gsd-media-keys
+yuvlux     4834   4170   4834   0    6      0.0     0.0     835876   ?        ?        Ssl      Feb13  0:02         00:00:00 /usr/libexec/gsd-power /usr/libexec/gsd-power
+yuvlux     4834   4170   4870   0    6      0.0     0.0     835876   ?        ?        Ssl      Feb13  0:02         00:00:00 /usr/libexec/gsd-power /usr/libexec/gsd-power
+yuvlux     4834   4170   4871   0    6      0.0     0.0     835876   ?        ?        Ssl      Feb13  0:02         00:00:00 /usr/libexec/gsd-power /usr/libexec/gsd-power
+yuvlux     4834   4170   4874   0    6      0.0     0.0     835876   ?        ?        Ssl      Feb13  0:02         00:00:01 /usr/libexec/gsd-power /usr/libexec/gsd-power
+yuvlux     4834   4170   4967   0    6      0.0     0.0     835876   ?        ?        Ssl      Feb13  0:02         00:00:00 /usr/libexec/gsd-power /usr/libexec/gsd-power
+yuvlux     4834   4170   9031   0    6      0.0     0.0     835876   ?        ?        Ssl      Feb13  0:02         00:00:00 /usr/libexec/gsd-power /usr/libexec/gsd-power
+yuvlux     4837   4170   4837   0    4      0.0     0.0     559292   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-print-notifications /usr/libexec/gsd-print-notifications
+yuvlux     4837   4170   4890   0    4      0.0     0.0     559292   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-print-notifications /usr/libexec/gsd-print-notifications
+yuvlux     4837   4170   4891   0    4      0.0     0.0     559292   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-print-notifications /usr/libexec/gsd-print-notifications
+yuvlux     4837   4170   4896   0    4      0.0     0.0     559292   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-print-notifications /usr/libexec/gsd-print-notifications
+yuvlux     4844   4170   4844   0    4      0.0     0.0     606704   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-rfkill /usr/libexec/gsd-rfkill
+yuvlux     4844   4170   4873   0    4      0.0     0.0     606704   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-rfkill /usr/libexec/gsd-rfkill
+yuvlux     4844   4170   4876   0    4      0.0     0.0     606704   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-rfkill /usr/libexec/gsd-rfkill
+yuvlux     4844   4170   4878   0    4      0.0     0.0     606704   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-rfkill /usr/libexec/gsd-rfkill
+yuvlux     4853   4170   4853   0    4      0.0     0.0     393400   ?        ?        Ssl      Feb13  0:02         00:00:00 /usr/libexec/gsd-screensaver-proxy /usr/libexec/gsd-screensaver-proxy
+yuvlux     4853   4170   4880   0    4      0.0     0.0     393400   ?        ?        Ssl      Feb13  0:02         00:00:00 /usr/libexec/gsd-screensaver-proxy /usr/libexec/gsd-screensaver-proxy
+yuvlux     4853   4170   4881   0    4      0.0     0.0     393400   ?        ?        Ssl      Feb13  0:02         00:00:00 /usr/libexec/gsd-screensaver-proxy /usr/libexec/gsd-screensaver-proxy
+yuvlux     4853   4170   4883   0    4      0.0     0.0     393400   ?        ?        Ssl      Feb13  0:02         00:00:01 /usr/libexec/gsd-screensaver-proxy /usr/libexec/gsd-screensaver-proxy
+yuvlux     4857   4170   4857   0    5      0.0     0.0     617796   ?        ?        Ssl      Feb13  0:04         00:00:01 /usr/libexec/gsd-sharing /usr/libexec/gsd-sharing
+yuvlux     4857   4170   4893   0    5      0.0     0.0     617796   ?        ?        Ssl      Feb13  0:04         00:00:00 /usr/libexec/gsd-sharing /usr/libexec/gsd-sharing
+yuvlux     4857   4170   4894   0    5      0.0     0.0     617796   ?        ?        Ssl      Feb13  0:04         00:00:00 /usr/libexec/gsd-sharing /usr/libexec/gsd-sharing
+yuvlux     4857   4170   4895   0    5      0.0     0.0     617796   ?        ?        Ssl      Feb13  0:04         00:00:00 /usr/libexec/gsd-sharing /usr/libexec/gsd-sharing
+yuvlux     4857   4170   4897   0    5      0.0     0.0     617796   ?        ?        Ssl      Feb13  0:04         00:00:02 /usr/libexec/gsd-sharing /usr/libexec/gsd-sharing
+yuvlux     4867   4170   4867   0    6      0.0     0.2     1016028  ?        ?        Sl       Feb13  0:32         00:00:21 /usr/local/bin/vicinserver /usr/local/bin/vicinae server --replace
+yuvlux     4867   4170   4955   0    6      0.0     0.2     1016028  ?        ?        Sl       Feb13  0:32         00:00:02 /usr/local/bin/vicinserver /usr/local/bin/vicinae server --replace
+yuvlux     4867   4170   5442   0    6      0.0     0.2     1016028  ?        ?        Sl       Feb13  0:32         00:00:00 /usr/local/bin/vicinserver /usr/local/bin/vicinae server --replace
+yuvlux     4867   4170   5443   0    6      0.0     0.2     1016028  ?        ?        Sl       Feb13  0:32         00:00:00 /usr/local/bin/vicinserver /usr/local/bin/vicinae server --replace
+yuvlux     4867   4170   6425   0    6      0.0     0.2     1016028  ?        ?        Sl       Feb13  0:32         00:00:04 /usr/local/bin/vicinserver /usr/local/bin/vicinae server --replace
+yuvlux     4867   4170   6426   0    6      0.0     0.2     1016028  ?        ?        Sl       Feb13  0:32         00:00:00 /usr/local/bin/vicinserver /usr/local/bin/vicinae server --replace
+yuvlux     4869   4170   4869   0    6      0.0     0.0     690424   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-smartcard /usr/libexec/gsd-smartcard
+yuvlux     4869   4170   4888   0    6      0.0     0.0     690424   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-smartcard /usr/libexec/gsd-smartcard
+yuvlux     4869   4170   4889   0    6      0.0     0.0     690424   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-smartcard /usr/libexec/gsd-smartcard
+yuvlux     4869   4170   4902   0    6      0.0     0.0     690424   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-smartcard /usr/libexec/gsd-smartcard
+yuvlux     4869   4170   4952   0    6      0.0     0.0     690424   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-smartcard /usr/libexec/gsd-smartcard
+yuvlux     4869   4170   4956   0    6      0.0     0.0     690424   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-smartcard /usr/libexec/gsd-smartcard
+yuvlux     4875   4170   4875   0    5      0.0     0.0     473380   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/gsd-sound /usr/libexec/gsd-sound
+yuvlux     4875   4170   4898   0    5      0.0     0.0     473380   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/gsd-sound /usr/libexec/gsd-sound
+yuvlux     4875   4170   4899   0    5      0.0     0.0     473380   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/gsd-sound /usr/libexec/gsd-sound
+yuvlux     4875   4170   4916   0    5      0.0     0.0     473380   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/gsd-sound /usr/libexec/gsd-sound
+yuvlux     4875   4170   4940   0    5      0.0     0.0     473380   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/gsd-sound /usr/libexec/gsd-sound
+yuvlux     4879   4170   4879   0    5      0.0     0.0     632728   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-usb-protection /usr/libexec/gsd-usb-protection
+yuvlux     4879   4170   4900   0    5      0.0     0.0     632728   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-usb-protection /usr/libexec/gsd-usb-protection
+yuvlux     4879   4170   4901   0    5      0.0     0.0     632728   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-usb-protection /usr/libexec/gsd-usb-protection
+yuvlux     4879   4170   4905   0    5      0.0     0.0     632728   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-usb-protection /usr/libexec/gsd-usb-protection
+yuvlux     4879   4170   4937   0    5      0.0     0.0     632728   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gsd-usb-protection /usr/libexec/gsd-usb-protection
+yuvlux     4882   4170   4882   0    5      0.0     0.0     617868   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/gsd-wwan /usr/libexec/gsd-wwan
+yuvlux     4882   4170   4919   0    5      0.0     0.0     617868   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/gsd-wwan /usr/libexec/gsd-wwan
+yuvlux     4882   4170   4920   0    5      0.0     0.0     617868   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/gsd-wwan /usr/libexec/gsd-wwan
+yuvlux     4882   4170   4926   0    5      0.0     0.0     617868   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/gsd-wwan /usr/libexec/gsd-wwan
+yuvlux     4882   4170   4942   0    5      0.0     0.0     617868   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/gsd-wwan /usr/libexec/gsd-wwan
+yuvlux     4892   4170   4892   0    4      0.0     0.0     314536   ?        ?        Sl       Feb13  0:00         00:00:00 /usr/libexec/gsd-disk-utility-notify /usr/libexec/gsd-disk-utility-notify
+yuvlux     4892   4170   4908   0    4      0.0     0.0     314536   ?        ?        Sl       Feb13  0:00         00:00:00 /usr/libexec/gsd-disk-utility-notify /usr/libexec/gsd-disk-utility-notify
+yuvlux     4892   4170   4909   0    4      0.0     0.0     314536   ?        ?        Sl       Feb13  0:00         00:00:00 /usr/libexec/gsd-disk-utility-notify /usr/libexec/gsd-disk-utility-notify
+yuvlux     4892   4170   4923   0    4      0.0     0.0     314536   ?        ?        Sl       Feb13  0:00         00:00:00 /usr/libexec/gsd-disk-utility-notify /usr/libexec/gsd-disk-utility-notify
+yuvlux     4918   4170   4918   0    33     0.0     0.1     4033416  ?        ?        Sl       Feb13  0:49         00:00:00 /usr/bin/warp-taskbar /usr/bin/warp-taskbar
+yuvlux     4918   4170   4969   0    33     0.0     0.1     4033416  ?        ?        Sl       Feb13  0:49         00:00:00 /usr/bin/warp-taskbar /usr/bin/warp-taskbar
+yuvlux     4918   4170   4970   0    33     0.0     0.1     4033416  ?        ?        Sl       Feb13  0:49         00:00:00 /usr/bin/warp-taskbar /usr/bin/warp-taskbar
+yuvlux     4918   4170   4971   0    33     0.0     0.1     4033416  ?        ?        Sl       Feb13  0:49         00:00:00 /usr/bin/warp-taskbar /usr/bin/warp-taskbar
+yuvlux     4918   4170   4972   0    33     0.0     0.1     4033416  ?        ?        Sl       Feb13  0:49         00:00:00 /usr/bin/warp-taskbar /usr/bin/warp-taskbar
+yuvlux     4918   4170   4973   0    33     0.0     0.1     4033416  ?        ?        Sl       Feb13  0:49         00:00:00 /usr/bin/warp-taskbar /usr/bin/warp-taskbar
+yuvlux     4918   4170   4974   0    33     0.0     0.1     4033416  ?        ?        Sl       Feb13  0:49         00:00:00 /usr/bin/warp-taskbar /usr/bin/warp-taskbar
+yuvlux     4918   4170   4975   0    33     0.0     0.1     4033416  ?        ?        Sl       Feb13  0:49         00:00:00 /usr/bin/warp-taskbar /usr/bin/warp-taskbar
+yuvlux     4918   4170   4976   0    33     0.0     0.1     4033416  ?        ?        Sl       Feb13  0:49         00:00:00 /usr/bin/warp-taskbar /usr/bin/warp-taskbar
+yuvlux     4918   4170   4977   0    33     0.0     0.1     4033416  ?        ?        Sl       Feb13  0:49         00:00:00 /usr/bin/warp-taskbar /usr/bin/warp-taskbar
+yuvlux     4918   4170   4978   0    33     0.0     0.1     4033416  ?        ?        Sl       Feb13  0:49         00:00:00 /usr/bin/warp-taskbar /usr/bin/warp-taskbar
+yuvlux     4918   4170   4980   0    33     0.0     0.1     4033416  ?        ?        Sl       Feb13  0:49         00:00:00 /usr/bin/warp-taskbar /usr/bin/warp-taskbar
+yuvlux     4918   4170   4981   0    33     0.0     0.1     4033416  ?        ?        Sl       Feb13  0:49         00:00:00 /usr/bin/warp-taskbar /usr/bin/warp-taskbar
+yuvlux     4918   4170   4982   0    33     0.0     0.1     4033416  ?        ?        Sl       Feb13  0:49         00:00:00 /usr/bin/warp-taskbar /usr/bin/warp-taskbar
+yuvlux     4918   4170   4983   0    33     0.0     0.1     4033416  ?        ?        Sl       Feb13  0:49         00:00:00 /usr/bin/warp-taskbar /usr/bin/warp-taskbar
+yuvlux     4918   4170   4984   0    33     0.0     0.1     4033416  ?        ?        Sl       Feb13  0:49         00:00:00 /usr/bin/warp-taskbar /usr/bin/warp-taskbar
+yuvlux     4918   4170   4985   0    33     0.0     0.1     4033416  ?        ?        Sl       Feb13  0:49         00:00:00 /usr/bin/warp-taskbar /usr/bin/warp-taskbar
+yuvlux     4918   4170   4986   0    33     0.0     0.1     4033416  ?        ?        Sl       Feb13  0:49         00:00:00 /usr/bin/warp-taskbar /usr/bin/warp-taskbar
+yuvlux     4918   4170   4987   0    33     0.0     0.1     4033416  ?        ?        Sl       Feb13  0:49         00:00:00 /usr/bin/warp-taskbar /usr/bin/warp-taskbar
+yuvlux     4918   4170   4988   0    33     0.0     0.1     4033416  ?        ?        Sl       Feb13  0:49         00:00:00 /usr/bin/warp-taskbar /usr/bin/warp-taskbar
+yuvlux     4918   4170   4989   0    33     0.0     0.1     4033416  ?        ?        Sl       Feb13  0:49         00:00:00 /usr/bin/warp-taskbar /usr/bin/warp-taskbar
+yuvlux     4918   4170   4992   0    33     0.0     0.1     4033416  ?        ?        Sl       Feb13  0:49         00:00:00 /usr/bin/warp-taskbar /usr/bin/warp-taskbar
+yuvlux     4918   4170   4995   0    33     0.0     0.1     4033416  ?        ?        Sl       Feb13  0:49         00:00:00 /usr/bin/warp-taskbar /usr/bin/warp-taskbar
+yuvlux     4918   4170   4996   0    33     0.0     0.1     4033416  ?        ?        Sl       Feb13  0:49         00:00:00 /usr/bin/warp-taskbar /usr/bin/warp-taskbar
+yuvlux     4918   4170   4997   0    33     0.0     0.1     4033416  ?        ?        Sl       Feb13  0:49         00:00:48 /usr/bin/warp-taskbar /usr/bin/warp-taskbar
+yuvlux     4918   4170   5006   0    33     0.0     0.1     4033416  ?        ?        Sl       Feb13  0:49         00:00:00 /usr/bin/warp-taskbar /usr/bin/warp-taskbar
+yuvlux     4918   4170   5009   0    33     0.0     0.1     4033416  ?        ?        Sl       Feb13  0:49         00:00:00 /usr/bin/warp-taskbar /usr/bin/warp-taskbar
+yuvlux     4918   4170   5010   0    33     0.0     0.1     4033416  ?        ?        Sl       Feb13  0:49         00:00:00 /usr/bin/warp-taskbar /usr/bin/warp-taskbar
+yuvlux     4918   4170   5012   0    33     0.0     0.1     4033416  ?        ?        Sl       Feb13  0:49         00:00:00 /usr/bin/warp-taskbar /usr/bin/warp-taskbar
+yuvlux     4918   4170   5018   0    33     0.0     0.1     4033416  ?        ?        Sl       Feb13  0:49         00:00:00 /usr/bin/warp-taskbar /usr/bin/warp-taskbar
+yuvlux     4918   4170   5457   0    33     0.0     0.1     4033416  ?        ?        Sl       Feb13  0:49         00:00:00 /usr/bin/warp-taskbar /usr/bin/warp-taskbar
+yuvlux     4918   4170   5458   0    33     0.0     0.1     4033416  ?        ?        Sl       Feb13  0:49         00:00:00 /usr/bin/warp-taskbar /usr/bin/warp-taskbar
+yuvlux     4918   4170   6347   0    33     0.0     0.1     4033416  ?        ?        Sl       Feb13  0:49         00:00:00 /usr/bin/warp-taskbar /usr/bin/warp-taskbar
+yuvlux     4991   4785   4991   0    5      0.0     0.0     466492   ?        ?        Sl       Feb13  0:00         00:00:00 /usr/libexec/ibus-dconf /usr/libexec/ibus-dconf
+yuvlux     4991   4785   4998   0    5      0.0     0.0     466492   ?        ?        Sl       Feb13  0:00         00:00:00 /usr/libexec/ibus-dconf /usr/libexec/ibus-dconf
+yuvlux     4991   4785   4999   0    5      0.0     0.0     466492   ?        ?        Sl       Feb13  0:00         00:00:00 /usr/libexec/ibus-dconf /usr/libexec/ibus-dconf
+yuvlux     4991   4785   5007   0    5      0.0     0.0     466492   ?        ?        Sl       Feb13  0:00         00:00:00 /usr/libexec/ibus-dconf /usr/libexec/ibus-dconf
+yuvlux     4991   4785   5017   0    5      0.0     0.0     466492   ?        ?        Sl       Feb13  0:00         00:00:00 /usr/libexec/ibus-dconf /usr/libexec/ibus-dconf
+yuvlux     4993   4785   4993   0    6      0.0     0.1     732732   ?        ?        Sl       Feb13  0:19         00:00:06 /usr/libexec/ibus-extension-gtk3 /usr/libexec/ibus-extension-gtk3
+yuvlux     4993   4785   5025   0    6      0.0     0.1     732732   ?        ?        Sl       Feb13  0:19         00:00:00 /usr/libexec/ibus-extension-gtk3 /usr/libexec/ibus-extension-gtk3
+yuvlux     4993   4785   5026   0    6      0.0     0.1     732732   ?        ?        Sl       Feb13  0:19         00:00:00 /usr/libexec/ibus-extension-gtk3 /usr/libexec/ibus-extension-gtk3
+yuvlux     4993   4785   5028   0    6      0.0     0.1     732732   ?        ?        Sl       Feb13  0:19         00:00:12 /usr/libexec/ibus-extension-gtk3 /usr/libexec/ibus-extension-gtk3
+yuvlux     4993   4785   5029   0    6      0.0     0.1     732732   ?        ?        Sl       Feb13  0:19         00:00:00 /usr/libexec/ibus-extension-gtk3 /usr/libexec/ibus-extension-gtk3
+yuvlux     4993   4785   6740   0    6      0.0     0.1     732732   ?        ?        Sl       Feb13  0:19         00:00:00 /usr/libexec/ibus-extension-gtk3 /usr/libexec/ibus-extension-gtk3
+yuvlux     5022   4170   5022   0    4      0.0     0.0     632232   ?        ?        Sl       Feb13  0:00         00:00:00 /usr/libexec/gsd-printer /usr/libexec/gsd-printer
+yuvlux     5022   4170   5030   0    4      0.0     0.0     632232   ?        ?        Sl       Feb13  0:00         00:00:00 /usr/libexec/gsd-printer /usr/libexec/gsd-printer
+yuvlux     5022   4170   5031   0    4      0.0     0.0     632232   ?        ?        Sl       Feb13  0:00         00:00:00 /usr/libexec/gsd-printer /usr/libexec/gsd-printer
+yuvlux     5022   4170   5032   0    4      0.0     0.0     632232   ?        ?        Sl       Feb13  0:00         00:00:00 /usr/libexec/gsd-printer /usr/libexec/gsd-printer
+yuvlux     5046   4170   5046   0    4      0.0     0.0     819316   ?        ?        Ssl      Feb13  0:10         00:00:03 /usr/libexec/ibus-portal /usr/libexec/ibus-portal
+yuvlux     5046   4170   5054   0    4      0.0     0.0     819316   ?        ?        Ssl      Feb13  0:10         00:00:00 /usr/libexec/ibus-portal /usr/libexec/ibus-portal
+yuvlux     5046   4170   5055   0    4      0.0     0.0     819316   ?        ?        Ssl      Feb13  0:10         00:00:00 /usr/libexec/ibus-portal /usr/libexec/ibus-portal
+yuvlux     5046   4170   5056   0    4      0.0     0.0     819316   ?        ?        Ssl      Feb13  0:10         00:00:05 /usr/libexec/ibus-portal /usr/libexec/ibus-portal
+yuvlux     5047   4170   5047   0    5      0.0     0.0     512900   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/abrt-applet--gapplication-service /usr/bin/abrt-applet --gapplication-service
+yuvlux     5047   4170   5107   0    5      0.0     0.0     512900   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/abrt-applet--gapplication-service /usr/bin/abrt-applet --gapplication-service
+yuvlux     5047   4170   5108   0    5      0.0     0.0     512900   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/abrt-applet--gapplication-service /usr/bin/abrt-applet --gapplication-service
+yuvlux     5047   4170   5110   0    5      0.0     0.0     512900   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/abrt-applet--gapplication-service /usr/bin/abrt-applet --gapplication-service
+yuvlux     5047   4170   5304   0    5      0.0     0.0     512900   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/abrt-applet--gapplication-service /usr/bin/abrt-applet --gapplication-service
+yuvlux     5048   4170   5048   0    4      0.0     0.1     685616   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/goa-daemon /usr/libexec/goa-daemon
+yuvlux     5048   4170   5116   0    4      0.0     0.1     685616   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/goa-daemon /usr/libexec/goa-daemon
+yuvlux     5048   4170   5117   0    4      0.0     0.1     685616   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/goa-daemon /usr/libexec/goa-daemon
+yuvlux     5048   4170   5119   0    4      0.0     0.1     685616   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/goa-daemon /usr/libexec/goa-daemon
+yuvlux     5049   4170   5049   0    12     0.0     0.1     2984156  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/gjs /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+yuvlux     5049   4170   5075   0    12     0.0     0.1     2984156  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/gjs /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+yuvlux     5049   4170   5076   0    12     0.0     0.1     2984156  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/gjs /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+yuvlux     5049   4170   5077   0    12     0.0     0.1     2984156  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/gjs /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+yuvlux     5049   4170   5078   0    12     0.0     0.1     2984156  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/gjs /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+yuvlux     5049   4170   5079   0    12     0.0     0.1     2984156  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/gjs /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+yuvlux     5049   4170   5080   0    12     0.0     0.1     2984156  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/gjs /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+yuvlux     5049   4170   5081   0    12     0.0     0.1     2984156  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/gjs /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+yuvlux     5049   4170   5082   0    12     0.0     0.1     2984156  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/gjs /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+yuvlux     5049   4170   5083   0    12     0.0     0.1     2984156  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/gjs /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+yuvlux     5049   4170   5084   0    12     0.0     0.1     2984156  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/gjs /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+yuvlux     5049   4170   5085   0    12     0.0     0.1     2984156  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/gjs /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+yuvlux     5050   4170   5050   0    5      0.0     0.0     622528   ?        ?        Ssl      Feb13  0:01         00:00:01 /usr/libexec/gvfs-udisks2-volume-monitor /usr/libexec/gvfs-udisks2-volume-monitor
+yuvlux     5050   4170   5065   0    5      0.0     0.0     622528   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor /usr/libexec/gvfs-udisks2-volume-monitor
+yuvlux     5050   4170   5066   0    5      0.0     0.0     622528   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor /usr/libexec/gvfs-udisks2-volume-monitor
+yuvlux     5050   4170   5068   0    5      0.0     0.0     622528   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor /usr/libexec/gvfs-udisks2-volume-monitor
+yuvlux     5050   4170   5089   0    5      0.0     0.0     622528   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor /usr/libexec/gvfs-udisks2-volume-monitor
+yuvlux     5051   4170   5051   0    10     0.0     0.1     1100472  ?        ?        SNsl     Feb13  0:02         00:00:00 /usr/libexec/localsearch-3 /usr/libexec/localsearch-3
+yuvlux     5051   4170   5061   0    10     0.0     0.1     1100472  ?        ?        SNsl     Feb13  0:02         00:00:00 /usr/libexec/localsearch-3 /usr/libexec/localsearch-3
+yuvlux     5051   4170   5063   0    10     0.0     0.1     1100472  ?        ?        SNsl     Feb13  0:02         00:00:00 /usr/libexec/localsearch-3 /usr/libexec/localsearch-3
+yuvlux     5051   4170   5064   0    10     0.0     0.1     1100472  ?        ?        SNsl     Feb13  0:02         00:00:00 /usr/libexec/localsearch-3 /usr/libexec/localsearch-3
+yuvlux     5051   4170   5178   0    10     0.0     0.1     1100472  ?        ?        SNsl     Feb13  0:02         00:00:00 /usr/libexec/localsearch-3 /usr/libexec/localsearch-3
+yuvlux     5051   4170   5182   0    10     0.0     0.1     1100472  ?        ?        SNsl     Feb13  0:02         00:00:00 /usr/libexec/localsearch-3 /usr/libexec/localsearch-3
+yuvlux     5051   4170   5215   0    10     0.0     0.1     1100472  ?        ?        SNsl     Feb13  0:02         00:00:00 /usr/libexec/localsearch-3 /usr/libexec/localsearch-3
+yuvlux     5051   4170   5217   0    10     0.0     0.1     1100472  ?        ?        SNsl     Feb13  0:02         00:00:00 /usr/libexec/localsearch-3 /usr/libexec/localsearch-3
+yuvlux     5051   4170   330550 0    10     0.0     0.1     1100472  ?        ?        SNsl     Feb13  0:02         00:00:00 /usr/libexec/localsearch-3 /usr/libexec/localsearch-3
+yuvlux     5051   4170   330560 0    10     0.0     0.1     1100472  ?        ?        SNsl     Feb13  0:02         00:00:00 /usr/libexec/localsearch-3 /usr/libexec/localsearch-3
+yuvlux     5052   4170   5052   0    3      0.1     0.1     412644   ?        ?        S<sl     Feb13  4:19         00:02:36 /usr/bin/pipewire-pulse /usr/bin/pipewire-pulse
+yuvlux     5052   4170   5069   0    3      0.1     0.1     412644   ?        ?        S<sl     Feb13  4:19         00:00:00 /usr/bin/pipewire-pulse /usr/bin/pipewire-pulse
+yuvlux     5052   4170   5070   0    3      0.1     0.1     412644   ?        ?        S<sl     Feb13  4:19         00:01:43 /usr/bin/pipewire-pulse /usr/bin/pipewire-pulse
+yuvlux     5053   4170   5053   0    7      0.0     0.0     994904   ?        ?        Ssl      Feb13  0:02         00:00:00 /usr/libexec/xdg-desktop-portal /usr/libexec/xdg-desktop-portal
+yuvlux     5053   4170   5067   0    7      0.0     0.0     994904   ?        ?        Ssl      Feb13  0:02         00:00:00 /usr/libexec/xdg-desktop-portal /usr/libexec/xdg-desktop-portal
+yuvlux     5053   4170   5072   0    7      0.0     0.0     994904   ?        ?        Ssl      Feb13  0:02         00:00:00 /usr/libexec/xdg-desktop-portal /usr/libexec/xdg-desktop-portal
+yuvlux     5053   4170   5073   0    7      0.0     0.0     994904   ?        ?        Ssl      Feb13  0:02         00:00:01 /usr/libexec/xdg-desktop-portal /usr/libexec/xdg-desktop-portal
+yuvlux     5053   4170   6537   0    7      0.0     0.0     994904   ?        ?        Ssl      Feb13  0:02         00:00:00 /usr/libexec/xdg-desktop-portal /usr/libexec/xdg-desktop-portal
+yuvlux     5053   4170   6546   0    7      0.0     0.0     994904   ?        ?        Ssl      Feb13  0:02         00:00:00 /usr/libexec/xdg-desktop-portal /usr/libexec/xdg-desktop-portal
+yuvlux     5053   4170   6547   0    7      0.0     0.0     994904   ?        ?        Ssl      Feb13  0:02         00:00:00 /usr/libexec/xdg-desktop-portal /usr/libexec/xdg-desktop-portal
+yuvlux     5060   4170   5060   0    9      0.0     0.0     1394704  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/evolution-calendar-factory /usr/libexec/evolution-calendar-factory
+yuvlux     5060   4170   5091   0    9      0.0     0.0     1394704  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/evolution-calendar-factory /usr/libexec/evolution-calendar-factory
+yuvlux     5060   4170   5092   0    9      0.0     0.0     1394704  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/evolution-calendar-factory /usr/libexec/evolution-calendar-factory
+yuvlux     5060   4170   5093   0    9      0.0     0.0     1394704  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/evolution-calendar-factory /usr/libexec/evolution-calendar-factory
+yuvlux     5060   4170   5126   0    9      0.0     0.0     1394704  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/evolution-calendar-factory /usr/libexec/evolution-calendar-factory
+yuvlux     5060   4170   5127   0    9      0.0     0.0     1394704  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/evolution-calendar-factory /usr/libexec/evolution-calendar-factory
+yuvlux     5060   4170   5138   0    9      0.0     0.0     1394704  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/evolution-calendar-factory /usr/libexec/evolution-calendar-factory
+yuvlux     5060   4170   5140   0    9      0.0     0.0     1394704  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/evolution-calendar-factory /usr/libexec/evolution-calendar-factory
+yuvlux     5060   4170   5141   0    9      0.0     0.0     1394704  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/evolution-calendar-factory /usr/libexec/evolution-calendar-factory
+yuvlux     5088   4170   5088   0    8      0.0     0.0     904952   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/xdg-document-portal /usr/libexec/xdg-document-portal
+yuvlux     5088   4170   5094   0    8      0.0     0.0     904952   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/xdg-document-portal /usr/libexec/xdg-document-portal
+yuvlux     5088   4170   5095   0    8      0.0     0.0     904952   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/xdg-document-portal /usr/libexec/xdg-document-portal
+yuvlux     5088   4170   5096   0    8      0.0     0.0     904952   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/xdg-document-portal /usr/libexec/xdg-document-portal
+yuvlux     5088   4170   5099   0    8      0.0     0.0     904952   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/xdg-document-portal /usr/libexec/xdg-document-portal
+yuvlux     5088   4170   5105   0    8      0.0     0.0     904952   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/xdg-document-portal /usr/libexec/xdg-document-portal
+yuvlux     5088   4170   5106   0    8      0.0     0.0     904952   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/xdg-document-portal /usr/libexec/xdg-document-portal
+yuvlux     5088   4170   111779 0    8      0.0     0.0     904952   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/xdg-document-portal /usr/libexec/xdg-document-portal
+root       5101   5088   5101   0    1      0.0     0.0     2588     ?        ?        Ss       Feb13  0:00         00:00:00 fusermount3  fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+yuvlux     5113   4170   5113   0    4      0.0     0.0     531424   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/gvfs-mtp-volume-monitor /usr/libexec/gvfs-mtp-volume-monitor
+yuvlux     5113   4170   5121   0    4      0.0     0.0     531424   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/gvfs-mtp-volume-monitor /usr/libexec/gvfs-mtp-volume-monitor
+yuvlux     5113   4170   5122   0    4      0.0     0.0     531424   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/gvfs-mtp-volume-monitor /usr/libexec/gvfs-mtp-volume-monitor
+yuvlux     5113   4170   5125   0    4      0.0     0.0     531424   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/gvfs-mtp-volume-monitor /usr/libexec/gvfs-mtp-volume-monitor
+yuvlux     5114   4170   5114   0    6      0.0     0.1     839552   ?        ?        Ssl      Feb13  0:03         00:00:01 /usr/libexec/xdg-desktop-portal-gnome /usr/libexec/xdg-desktop-portal-gnome
+yuvlux     5114   4170   5159   0    6      0.0     0.1     839552   ?        ?        Ssl      Feb13  0:03         00:00:00 /usr/libexec/xdg-desktop-portal-gnome /usr/libexec/xdg-desktop-portal-gnome
+yuvlux     5114   4170   5161   0    6      0.0     0.1     839552   ?        ?        Ssl      Feb13  0:03         00:00:01 /usr/libexec/xdg-desktop-portal-gnome /usr/libexec/xdg-desktop-portal-gnome
+yuvlux     5114   4170   5163   0    6      0.0     0.1     839552   ?        ?        Ssl      Feb13  0:03         00:00:01 /usr/libexec/xdg-desktop-portal-gnome /usr/libexec/xdg-desktop-portal-gnome
+yuvlux     5114   4170   5290   0    6      0.0     0.1     839552   ?        ?        Ssl      Feb13  0:03         00:00:00 /usr/libexec/xdg-desktop-portal-gnome /usr/libexec/xdg-desktop-portal-gnome
+yuvlux     5114   4170   5294   0    6      0.0     0.1     839552   ?        ?        Ssl      Feb13  0:03         00:00:00 /usr/libexec/xdg-desktop-portal-gnome /usr/libexec/xdg-desktop-portal-gnome
+yuvlux     5123   4170   5123   0    5      0.0     0.0     620076   ?        ?        Ssl      Feb13  0:04         00:00:00 /usr/libexec/goa-identity-service /usr/libexec/goa-identity-service
+yuvlux     5123   4170   5134   0    5      0.0     0.0     620076   ?        ?        Ssl      Feb13  0:04         00:00:00 /usr/libexec/goa-identity-service /usr/libexec/goa-identity-service
+yuvlux     5123   4170   5135   0    5      0.0     0.0     620076   ?        ?        Ssl      Feb13  0:04         00:00:00 /usr/libexec/goa-identity-service /usr/libexec/goa-identity-service
+yuvlux     5123   4170   5136   0    5      0.0     0.0     620076   ?        ?        Ssl      Feb13  0:04         00:00:03 /usr/libexec/goa-identity-service /usr/libexec/goa-identity-service
+yuvlux     5123   4170   5137   0    5      0.0     0.0     620076   ?        ?        Ssl      Feb13  0:04         00:00:00 /usr/libexec/goa-identity-service /usr/libexec/goa-identity-service
+yuvlux     5130   4170   5130   0    4      0.0     0.0     533308   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor /usr/libexec/gvfs-gphoto2-volume-monitor
+yuvlux     5130   4170   5143   0    4      0.0     0.0     533308   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor /usr/libexec/gvfs-gphoto2-volume-monitor
+yuvlux     5130   4170   5144   0    4      0.0     0.0     533308   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor /usr/libexec/gvfs-gphoto2-volume-monitor
+yuvlux     5130   4170   5147   0    4      0.0     0.0     533308   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor /usr/libexec/gvfs-gphoto2-volume-monitor
+yuvlux     5149   4170   5149   0    7      0.0     0.1     1010992  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/evolution-addressbook-factory /usr/libexec/evolution-addressbook-factory
+yuvlux     5149   4170   5168   0    7      0.0     0.1     1010992  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/evolution-addressbook-factory /usr/libexec/evolution-addressbook-factory
+yuvlux     5149   4170   5169   0    7      0.0     0.1     1010992  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/evolution-addressbook-factory /usr/libexec/evolution-addressbook-factory
+yuvlux     5149   4170   5171   0    7      0.0     0.1     1010992  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/evolution-addressbook-factory /usr/libexec/evolution-addressbook-factory
+yuvlux     5149   4170   5188   0    7      0.0     0.1     1010992  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/evolution-addressbook-factory /usr/libexec/evolution-addressbook-factory
+yuvlux     5149   4170   5189   0    7      0.0     0.1     1010992  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/evolution-addressbook-factory /usr/libexec/evolution-addressbook-factory
+yuvlux     5149   4170   5198   0    7      0.0     0.1     1010992  ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/evolution-addressbook-factory /usr/libexec/evolution-addressbook-factory
+yuvlux     5151   4170   5151   0    5      0.0     0.0     612536   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gvfs-afc-volume-monitor /usr/libexec/gvfs-afc-volume-monitor
+yuvlux     5151   4170   5153   0    5      0.0     0.0     612536   ?        ?        Ssl      Feb13  0:01         00:00:01 /usr/libexec/gvfs-afc-volume-monitor /usr/libexec/gvfs-afc-volume-monitor
+yuvlux     5151   4170   5154   0    5      0.0     0.0     612536   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gvfs-afc-volume-monitor /usr/libexec/gvfs-afc-volume-monitor
+yuvlux     5151   4170   5155   0    5      0.0     0.0     612536   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gvfs-afc-volume-monitor /usr/libexec/gvfs-afc-volume-monitor
+yuvlux     5151   4170   5158   0    5      0.0     0.0     612536   ?        ?        Ssl      Feb13  0:01         00:00:00 /usr/libexec/gvfs-afc-volume-monitor /usr/libexec/gvfs-afc-volume-monitor
+yuvlux     5165   4170   5165   0    4      0.0     0.0     531108   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/gvfs-goa-volume-monitor /usr/libexec/gvfs-goa-volume-monitor
+yuvlux     5165   4170   5172   0    4      0.0     0.0     531108   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/gvfs-goa-volume-monitor /usr/libexec/gvfs-goa-volume-monitor
+yuvlux     5165   4170   5173   0    4      0.0     0.0     531108   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/gvfs-goa-volume-monitor /usr/libexec/gvfs-goa-volume-monitor
+yuvlux     5165   4170   5175   0    4      0.0     0.0     531108   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/libexec/gvfs-goa-volume-monitor /usr/libexec/gvfs-goa-volume-monitor
+yuvlux     5185   4577   5185   0    5      0.0     0.1     665580   ?        ?        Sl       Feb13  1:01         00:01:01 /usr/bin/Xwayland /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.ONH9J3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients -enable-ei-portal
+yuvlux     5185   4577   5444   0    5      0.0     0.1     665580   ?        ?        Sl       Feb13  1:01         00:00:00 /usr/bin/Xwayland /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.ONH9J3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients -enable-ei-portal
+yuvlux     5185   4577   5445   0    5      0.0     0.1     665580   ?        ?        Sl       Feb13  1:01         00:00:00 /usr/bin/Xwayland /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.ONH9J3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients -enable-ei-portal
+yuvlux     5185   4577   5446   0    5      0.0     0.1     665580   ?        ?        Sl       Feb13  1:01         00:00:00 /usr/bin/Xwayland /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.ONH9J3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients -enable-ei-portal
+yuvlux     5185   4577   5447   0    5      0.0     0.1     665580   ?        ?        Sl       Feb13  1:01         00:00:00 /usr/bin/Xwayland /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.ONH9J3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients -enable-ei-portal
+root       5272   1      5272   0    4      0.0     0.0     554288   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/sbin/abrt-dbus /usr/sbin/abrt-dbus -t133
+root       5272   1      5286   0    4      0.0     0.0     554288   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/sbin/abrt-dbus /usr/sbin/abrt-dbus -t133
+root       5272   1      5287   0    4      0.0     0.0     554288   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/sbin/abrt-dbus /usr/sbin/abrt-dbus -t133
+root       5272   1      5288   0    4      0.0     0.0     554288   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/sbin/abrt-dbus /usr/sbin/abrt-dbus -t133
+yuvlux     5308   4785   5308   0    4      0.0     0.0     392744   ?        ?        Sl       Feb13  0:31         00:00:09 /usr/libexec/ibus-engine-simple /usr/libexec/ibus-engine-simple
+yuvlux     5308   4785   5309   0    4      0.0     0.0     392744   ?        ?        Sl       Feb13  0:31         00:00:00 /usr/libexec/ibus-engine-simple /usr/libexec/ibus-engine-simple
+yuvlux     5308   4785   5310   0    4      0.0     0.0     392744   ?        ?        Sl       Feb13  0:31         00:00:00 /usr/libexec/ibus-engine-simple /usr/libexec/ibus-engine-simple
+yuvlux     5308   4785   5311   0    4      0.0     0.0     392744   ?        ?        Sl       Feb13  0:31         00:00:21 /usr/libexec/ibus-engine-simple /usr/libexec/ibus-engine-simple
+yuvlux     5415   4306   5415   0    5      0.0     0.0     835560   ?        ?        Sl       Feb13  0:00         00:00:00 /usr/libexec/gvfsd-t--spawner /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+yuvlux     5415   4306   5420   0    5      0.0     0.0     835560   ?        ?        Sl       Feb13  0:00         00:00:00 /usr/libexec/gvfsd-t--spawner /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+yuvlux     5415   4306   5421   0    5      0.0     0.0     835560   ?        ?        Sl       Feb13  0:00         00:00:00 /usr/libexec/gvfsd-t--spawner /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+yuvlux     5415   4306   5422   0    5      0.0     0.0     835560   ?        ?        Sl       Feb13  0:00         00:00:00 /usr/libexec/gvfsd-t--spawner /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+yuvlux     5415   4306   5425   0    5      0.0     0.0     835560   ?        ?        Sl       Feb13  0:00         00:00:00 /usr/libexec/gvfsd-t--spawner /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+yuvlux     5456   4170   5456   0    5      0.0     0.0     476264   ?        ?        Ssl      Feb13  0:02         00:00:00 /usr/libexec/gsd-xsettings /usr/libexec/gsd-xsettings
+yuvlux     5456   4170   5471   0    5      0.0     0.0     476264   ?        ?        Ssl      Feb13  0:02         00:00:01 /usr/libexec/gsd-xsettings /usr/libexec/gsd-xsettings
+yuvlux     5456   4170   5472   0    5      0.0     0.0     476264   ?        ?        Ssl      Feb13  0:02         00:00:00 /usr/libexec/gsd-xsettings /usr/libexec/gsd-xsettings
+yuvlux     5456   4170   5475   0    5      0.0     0.0     476264   ?        ?        Ssl      Feb13  0:02         00:00:00 /usr/libexec/gsd-xsettings /usr/libexec/gsd-xsettings
+yuvlux     5456   4170   5477   0    5      0.0     0.0     476264   ?        ?        Ssl      Feb13  0:02         00:00:00 /usr/libexec/gsd-xsettings /usr/libexec/gsd-xsettings
+yuvlux     5478   4170   5478   0    4      0.0     0.0     392684   ?        ?        Ssl      Feb13  0:09         00:00:04 /usr/libexec/gvfsd-metadata /usr/libexec/gvfsd-metadata
+yuvlux     5478   4170   5501   0    4      0.0     0.0     392684   ?        ?        Ssl      Feb13  0:09         00:00:00 /usr/libexec/gvfsd-metadata /usr/libexec/gvfsd-metadata
+yuvlux     5478   4170   5502   0    4      0.0     0.0     392684   ?        ?        Ssl      Feb13  0:09         00:00:00 /usr/libexec/gvfsd-metadata /usr/libexec/gvfsd-metadata
+yuvlux     5478   4170   5503   0    4      0.0     0.0     392684   ?        ?        Ssl      Feb13  0:09         00:00:05 /usr/libexec/gvfsd-metadata /usr/libexec/gvfsd-metadata
+yuvlux     5493   4170   5493   0    6      0.0     0.0     469272   ?        ?        Sl       Feb13  0:00         00:00:00 /usr/libexec/ibus-x11 /usr/libexec/ibus-x11
+yuvlux     5493   4170   6261   0    6      0.0     0.0     469272   ?        ?        Sl       Feb13  0:00         00:00:00 /usr/libexec/ibus-x11 /usr/libexec/ibus-x11
+yuvlux     5493   4170   6262   0    6      0.0     0.0     469272   ?        ?        Sl       Feb13  0:00         00:00:00 /usr/libexec/ibus-x11 /usr/libexec/ibus-x11
+yuvlux     5493   4170   6324   0    6      0.0     0.0     469272   ?        ?        Sl       Feb13  0:00         00:00:00 /usr/libexec/ibus-x11 /usr/libexec/ibus-x11
+yuvlux     5493   4170   6325   0    6      0.0     0.0     469272   ?        ?        Sl       Feb13  0:00         00:00:00 /usr/libexec/ibus-x11 /usr/libexec/ibus-x11
+yuvlux     5493   4170   6326   0    6      0.0     0.0     469272   ?        ?        Sl       Feb13  0:00         00:00:00 /usr/libexec/ibus-x11 /usr/libexec/ibus-x11
+yuvlux     6263   4577   6263   0    10     0.0     0.1     1463396  ?        ?        Sl       Feb13  0:05         00:00:05 /usr/libexec/mutter-x11-frames /usr/libexec/mutter-x11-frames
+yuvlux     6263   4577   6411   0    10     0.0     0.1     1463396  ?        ?        Sl       Feb13  0:05         00:00:00 /usr/libexec/mutter-x11-frames /usr/libexec/mutter-x11-frames
+yuvlux     6263   4577   6412   0    10     0.0     0.1     1463396  ?        ?        Sl       Feb13  0:05         00:00:00 /usr/libexec/mutter-x11-frames /usr/libexec/mutter-x11-frames
+yuvlux     6263   4577   6413   0    10     0.0     0.1     1463396  ?        ?        Sl       Feb13  0:05         00:00:00 /usr/libexec/mutter-x11-frames /usr/libexec/mutter-x11-frames
+yuvlux     6263   4577   6414   0    10     0.0     0.1     1463396  ?        ?        Sl       Feb13  0:05         00:00:00 /usr/libexec/mutter-x11-frames /usr/libexec/mutter-x11-frames
+yuvlux     6263   4577   6416   0    10     0.0     0.1     1463396  ?        ?        Sl       Feb13  0:05         00:00:00 /usr/libexec/mutter-x11-frames /usr/libexec/mutter-x11-frames
+yuvlux     6263   4577   6417   0    10     0.0     0.1     1463396  ?        ?        Sl       Feb13  0:05         00:00:00 /usr/libexec/mutter-x11-frames /usr/libexec/mutter-x11-frames
+yuvlux     6263   4577   6418   0    10     0.0     0.1     1463396  ?        ?        Sl       Feb13  0:05         00:00:00 /usr/libexec/mutter-x11-frames /usr/libexec/mutter-x11-frames
+yuvlux     6263   4577   6419   0    10     0.0     0.1     1463396  ?        ?        Sl       Feb13  0:05         00:00:00 /usr/libexec/mutter-x11-frames /usr/libexec/mutter-x11-frames
+yuvlux     6263   4577   6556   0    10     0.0     0.1     1463396  ?        ?        Sl       Feb13  0:05         00:00:00 /usr/libexec/mutter-x11-frames /usr/libexec/mutter-x11-frames
+yuvlux     6538   4170   6538   0    6      0.0     0.1     726752   ?        ?        Ssl      Feb13  0:02         00:00:00 /usr/libexec/xdg-desktop-portal-gtk /usr/libexec/xdg-desktop-portal-gtk
+yuvlux     6538   4170   6540   0    6      0.0     0.1     726752   ?        ?        Ssl      Feb13  0:02         00:00:00 /usr/libexec/xdg-desktop-portal-gtk /usr/libexec/xdg-desktop-portal-gtk
+yuvlux     6538   4170   6541   0    6      0.0     0.1     726752   ?        ?        Ssl      Feb13  0:02         00:00:01 /usr/libexec/xdg-desktop-portal-gtk /usr/libexec/xdg-desktop-portal-gtk
+yuvlux     6538   4170   6543   0    6      0.0     0.1     726752   ?        ?        Ssl      Feb13  0:02         00:00:00 /usr/libexec/xdg-desktop-portal-gtk /usr/libexec/xdg-desktop-portal-gtk
+yuvlux     6538   4170   6544   0    6      0.0     0.1     726752   ?        ?        Ssl      Feb13  0:02         00:00:00 /usr/libexec/xdg-desktop-portal-gtk /usr/libexec/xdg-desktop-portal-gtk
+yuvlux     6538   4170   6545   0    6      0.0     0.1     726752   ?        ?        Ssl      Feb13  0:02         00:00:00 /usr/libexec/xdg-desktop-portal-gtk /usr/libexec/xdg-desktop-portal-gtk
+yuvlux     6548   4170   6548   0    4      0.0     0.0     537952   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/gnome-keyri--start /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+yuvlux     6548   4170   6550   0    4      0.0     0.0     537952   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/gnome-keyri--start /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+yuvlux     6548   4170   6551   0    4      0.0     0.0     537952   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/gnome-keyri--start /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+yuvlux     6548   4170   6552   0    4      0.0     0.0     537952   ?        ?        Ssl      Feb13  0:00         00:00:00 /usr/bin/gnome-keyri--start /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+yuvlux     10904  4577   10904  0    125    2.9     3.4     12853188 ?        ?        Sl       Feb13  80:31        00:12:38 /usr/lib64/firefox/firefox /usr/lib64/firefox/firefox
+yuvlux     10904  4577   10923  0    125    2.9     3.4     12853188 ?        ?        Sl       Feb13  80:31        00:00:00 /usr/lib64/firefox/firefox /usr/lib64/firefox/firefox
+yuvlux     10904  4577   10927  0    125    2.9     3.4     12853188 ?        ?        Sl       Feb13  80:31        00:00:00 /usr/lib64/firefox/firefox /usr/lib64/firefox/firefox
+yuvlux     10904  4577   10928  0    125    2.9     3.4     12853188 ?        ?        Sl       Feb13  80:31        00:00:00 /usr/lib64/firefox/firefox /usr/lib64/firefox/firefox
+yuvlux     10904  4577   10931  0    125    2.9     3.4     12853188 ?        ?        Sl       Feb13  80:31        00:03:59 /usr/lib64/firefox/firefox /usr/lib64/firefox/firefox
+yuvlux     10904  4577   10932  0    125    2.9     3.4     12853188 ?        ?        Sl       Feb13  80:31        00:00:04 /usr/lib64/firefox/firefox /usr/lib64/firefox/firefox
+yuvlux     10904  4577   10934  0    125    2.9     3.4     12853188 ?        ?        Sl       Feb13  80:31        00:00:00 /usr/lib64/firefox/firefox /usr/lib64/firefox/firefox
+yuvlux     10904  4577   10935  0    125    2.9     3.4     12853188 ?        ?        Sl       Feb13  80:31        00:04:53 /usr/lib64/firefox/firefox /usr/lib64/firefox/firefox
+yuvlux     10904  4577   10937  0    125    2.9     3.4     12853188 ?        ?        Sl       Feb13  80:31        00:02:59 /usr/lib64/firefox/firefox /usr/lib64/firefox/firefox
