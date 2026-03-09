@@ -1,0 +1,21 @@
+[23:16:32] ==========================================
+[23:16:32]  GAUSSIAN ELIMINATION SOLVER 
+[23:16:32] ==========================================
+[23:16:46] [User Input] Matrix Size set to N = 1001
+[23:16:46] [Init] Generating random coefficients...
+[23:16:46] [Math] Solving system using Gaussian elimination...
+[23:16:47] ------------------------------------------
+[23:16:47] [Success] Calculation Complete!
+[23:16:47] [Performance] Total Time Elapsed: 0.5499 seconds
+[23:16:47] [Results] Preview of Solutions (First 10):
+[23:16:47]  x[0] = -0.477350
+[23:16:47]  x[1] = -0.123803
+[23:16:47]  x[2] = -0.279174
+[23:16:47]  x[3] = 0.328199
+[23:16:47]  x[4] = -0.348900
+[23:16:47]  x[5] = 1.171646
+[23:16:47]  x[6] = -0.572943
+[23:16:47]  x[7] = -0.212553
+[23:16:47]  x[8] = 0.247843
+[23:16:47]  x[9] = -0.019231
+[23:16:47] [System] Shutting down normally.
