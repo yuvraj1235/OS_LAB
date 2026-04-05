@@ -6,7 +6,7 @@
 
 **Files:**
 - `aiGen.c`: Main program that generates a random system, computes determinants, parallelizes worker processes, and prints solutions and runtime.
-- `manMade.c`: (If present) an alternative or helper file — check your workspace.
+- `manMade.c`: along with an helper file 
 - `README.md`: This file.
 
 **Build & Run (macOS / zsh)**
